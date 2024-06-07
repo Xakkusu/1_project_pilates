@@ -22,6 +22,15 @@ main{
     /* notwendig? flex-direction: column;*/
 }
 
+h1 {
+    font-family: "Raleway", "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    color: #722F37;
+    letter-spacing: 2px;
+}
+
 /*Header*/
 header{
     color: #4A0404;

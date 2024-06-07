@@ -43,6 +43,11 @@ header a{
     color: inherit;
 }
 
+/* Menu/navbar*/
+#menu{
+    list-style-type: none;
+}
+
 /* ist das überhaupt notwendig, wenn ich das weglasse geht es trotzdem
 footer {
     margin-top: auto;

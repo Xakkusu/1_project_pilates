@@ -51,7 +51,7 @@ header{
     position: fixed;
     z-index: 99;
     align-items: baseline;
-    
+    background-color: #ffffff;
 }
 
 header a{
@@ -70,6 +70,9 @@ nav{
     top: 100%;
     left: 0;
     text-align: end;
+    background-color: #ffffff;
+    /* when not checked invisible */
+    display: none;
 }
 
 /* Menu/navbar*/
@@ -80,6 +83,11 @@ nav{
 
 #menu li{
     padding-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#menu-mobile-icon:checked~nav{
+    display: block;
 }
 
 .menu-mobile-icon-label{

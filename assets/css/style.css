@@ -25,6 +25,8 @@ main{
 /*Header*/
 header{
     color: #4A0404;
+    display: flex;
+    justify-content: space-between;
 }
 
 header a{

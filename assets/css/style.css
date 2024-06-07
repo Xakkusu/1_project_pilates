@@ -1,0 +1,19 @@
+/* Main Element */
+/* General styles */
+body{
+    
+}
+
+main{
+    /* Push footer down */
+    min-height: 100vh;
+    display: flex;
+    background-color: aquamarine;
+    /* also can be done via flex shorthand --> flex: grow shrink basis --> flex: 1 0 auto if so then flex properties in body element as well*/
+    /* notwendig? flex-direction: column;*/
+}
+
+/* ist das überhaupt notwendig, wenn ich das weglasse geht es trotzdem
+footer {
+    margin-top: auto;
+  }*/

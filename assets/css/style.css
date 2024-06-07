@@ -43,6 +43,10 @@ header a{
     color: inherit;
 }
 
+.active{
+    text-decoration: underline;
+}
+
 /* Menu/navbar*/
 #menu{
     list-style-type: none;

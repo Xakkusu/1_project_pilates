@@ -11,7 +11,7 @@
 /* General styles */
 body{
     font-family: "Montserrat", sans-serif;
-    color: #722F37;
+    color: #4A0404;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -84,6 +84,11 @@ nav{
 #menu li{
     padding-right: 1rem;
     margin-bottom: 0.5rem;
+}
+
+/* checkbox itself will be invisible */
+#menu-mobile-icon{
+    display: none;
 }
 
 /* when burger icon is clicked it will become visible */

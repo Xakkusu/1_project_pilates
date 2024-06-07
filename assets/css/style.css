@@ -32,6 +32,12 @@ h1 {
 }
 
 /*Header*/
+/* What to do in header
+1. box shadow
+2. for mobile drop down menu
+3. Style it in page colours etc
+4. responsiveness
+ */
 header{
     color: #4A0404;
     display: flex;
@@ -44,8 +50,11 @@ header a{
 }
 
 .active{
-    text-decoration: underline;
+    border-bottom: 1px solid #4A0404;
 }
+
+/* navbar to make mobile menu toggable */
+
 
 /* Menu/navbar*/
 #menu{

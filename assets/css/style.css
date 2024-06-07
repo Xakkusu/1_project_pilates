@@ -22,6 +22,16 @@ main{
     /* notwendig? flex-direction: column;*/
 }
 
+/*Header*/
+header{
+    color: #4A0404;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* ist das überhaupt notwendig, wenn ich das weglasse geht es trotzdem
 footer {
     margin-top: auto;

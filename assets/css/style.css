@@ -86,11 +86,13 @@ nav{
     margin-bottom: 0.5rem;
 }
 
+/* when burger icon is clicked it will become visible */
 #menu-mobile-icon:checked~nav{
     display: block;
 }
 
 .menu-mobile-icon-label{
+    font-size: 1.5rem;
 }
 
 

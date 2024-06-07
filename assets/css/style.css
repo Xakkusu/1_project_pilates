@@ -1,9 +1,12 @@
-/* Main Element */
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* General styles */
 body{
-    
+    font-family: "Montserrat", sans-serif;
 }
 
+/* Main Element */
 main{
     /* Push footer down */
     min-height: 100vh;

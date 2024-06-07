@@ -10,16 +10,10 @@
 /* General styles */
 body{
     font-family: "Montserrat", sans-serif;
-}
-
-/* Main Element */
-main{
-    /* Push footer down */
+    color: #722F37;
     min-height: 100vh;
     display: flex;
-    background-color: aquamarine;
-    /* also can be done via flex shorthand --> flex: grow shrink basis --> flex: 1 0 auto if so then flex properties in body element as well*/
-    /* notwendig? flex-direction: column;*/
+    flex-direction: column;
 }
 
 h1 {
@@ -29,6 +23,14 @@ h1 {
     font-weight: 600;
     color: #722F37;
     letter-spacing: 2px;
+}
+
+/* Main Element */
+main{
+    /* Push footer down */
+    flex: 1 0 auto;
+    margin-top: 37px;
+    background-color: aquamarine;
 }
 
 /*Header*/
@@ -42,6 +44,10 @@ header{
     color: #4A0404;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width:100%;
+    z-index: 99;
+    align-items: baseline;
 }
 
 header a{
@@ -54,14 +60,17 @@ header a{
 }
 
 /* navbar to make mobile menu toggable */
+nav{
 
+}
 
 /* Menu/navbar*/
 #menu{
     list-style-type: none;
+    font-size: 110%;
 }
 
-/* ist das überhaupt notwendig, wenn ich das weglasse geht es trotzdem
+
 footer {
     margin-top: auto;
-  }*/
+  }

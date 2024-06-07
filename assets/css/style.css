@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
@@ -31,6 +32,7 @@ main{
     flex: 1 0 auto;
     margin-top: 37px;
     background-color: aquamarine;
+    flex-direction: column;
 }
 
 /*Header*/
@@ -42,12 +44,14 @@ main{
  */
 header{
     color: #4A0404;
+    width:100%;
+    padding: 0 1rem;
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width:100%;
     z-index: 99;
     align-items: baseline;
+    
 }
 
 header a{
@@ -61,13 +65,24 @@ header a{
 
 /* navbar to make mobile menu toggable */
 nav{
-
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    text-align: end;
 }
 
 /* Menu/navbar*/
 #menu{
     list-style-type: none;
     font-size: 110%;
+}
+
+#menu li{
+    padding-right: 1rem;
+}
+
+.menu-mobile-icon-label{
 }
 
 

@@ -124,6 +124,46 @@ nav{
     min-height: 100px;
 }
 
+/* Best Courses Section */
+#best-courses {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#best-courses h3 {
+    font-size: 120%;
+    padding-top: 5px;
+}
+
+.best-course-box{
+    width:100%;
+    height: 125px;
+}
+
+#best-reformer-courses-text {
+    height: 100px;
+}
+
+.best-course-image{
+    /* löschen falls nicht genutzt wird */
+}
+
+#best-reformer-courses, 
+#best-pilates-courses,
+#best-outdoor-courses,
+#best-single-courses {
+    padding: 0 5%;
+}
+
+#best-reformer-courses-image {
+    background: url(../images/best-reformer-courses-image.webp) center center / cover;
+}
+
+#best-courses p {
+    font-size: 120%;
+}
+
 /* Footer  */
 footer {
     margin-top: auto;

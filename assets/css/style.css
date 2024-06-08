@@ -100,6 +100,12 @@ nav{
     font-size: 1.5rem;
 }
 
+/* Footer  */
+footer {
+    margin-top: auto;
+}
+
+
 /* add responsiveness for tablets and larger */
 @media screen and (min-width: 768px) {
     /* make navbar visible again and display menu-list horizontally */
@@ -117,8 +123,5 @@ nav{
     /* will not need burger dropwdown menu anymore */
     .menu-mobile-icon-label{
         display: none;
+    }
 }
-
-footer {
-    margin-top: auto;
-  }

@@ -323,4 +323,17 @@ footer {
         height: 250px;
     }
 
+    /* Why pilates section index page */
+    #why-pilates {
+        max-width: 1500px;
+        min-width: 1200PX;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+        margin: auto;
+    }
+    #ul-why-pilates {
+        padding-left: 3rem;
+    }
+
 } 

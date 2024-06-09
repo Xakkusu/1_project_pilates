@@ -113,6 +113,7 @@ nav{
 /* Cover-Text */
 #cover-text{
     background-color: rgba(240,234,214, 0.7);
+    border-radius: 3px;
     width: 82%;
     font-size: 140%;
     position: absolute;
@@ -127,8 +128,11 @@ nav{
 /* Best Courses Section */
 #best-courses {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 1.5rem;
+}
+
+#best-courses h2 {
+    padding-bottom: 0.5rem;
 }
 
 #best-courses h3 {
@@ -138,30 +142,34 @@ nav{
 
 .best-course-box{
     width:100%;
-    height: 125px;
+    height: 150px;
 }
 
-#best-reformer-courses-text {
+.best-course-text {
     height: 100px;
-}
-
-.best-course-image{
-    /* löschen falls nicht genutzt wird */
 }
 
 #best-reformer-courses, 
 #best-pilates-courses,
 #best-outdoor-courses,
 #best-single-courses {
-    padding: 0 5%;
+    padding: 0 5% 1rem 5%;
+}
+
+#best-pilates-courses-image {
+    background: url(../images/best-pilates-courses-image.webp) center center / cover;
 }
 
 #best-reformer-courses-image {
-    background: url(../images/best-reformer-courses-image.webp) center center / cover;
+    background: url(../images/best-reformer-courses-image.webp) bottom center / cover;
 }
 
-#best-courses p {
-    font-size: 120%;
+#best-outdoor-courses-image {
+    background: url(../images/best-outdoor-courses-image.webp) center center / cover;
+}
+
+#best-single-courses-image {
+    background: url(../images/best-single-courses-image.webp) center center / cover;
 }
 
 /* Footer  */
@@ -181,6 +189,16 @@ footer {
     font-size: 140%;
     color: #722F37;
     padding: 3%;
+}
+
+/* Media:query add responsiveness for larger smartphone screens (440px and up) */
+@media screen and (min-width: 440px) {
+    /* Courses Section of Index page */
+    .best-course-box{
+        max-width:396px;
+        margin: auto;
+    }
+
 }
 
 /* Media:query add responsiveness for tablets and larger (768px and up)*/
@@ -207,6 +225,37 @@ footer {
         display: none;
     }
 
+    /* Courses Section of Index page */
+    .best-course-box{
+        max-width:396px;
+        margin: 0;
+    }
+
+    #best-reformer-courses,
+    #best-pilates-courses,
+    #best-single-courses,
+    #best-outdoor-courses{
+        display: flex;
+        justify-content: center;
+        padding: 0 5% 0 5%;
+    }
+
+    #best-pilates-courses-image, #best-outdoor-courses-image {
+        order: -1;
+    }
+
+    .best-course-text {
+        padding: 0;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
 /* Media query: big desktops  (992px and up) */
 @media screen and (min-width: 992px) {
     /* Hero image and Cover-Text */
@@ -223,6 +272,37 @@ footer {
         right: 150px;
         top: 25px;
     }
-} 
 
-}
+    /* Courses-Section  on index page*/
+    #best-courses{
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+        margin: auto;
+    }
+    
+    #best-reformer-courses,
+    #best-pilates-courses,
+    #best-single-courses,
+    #best-outdoor-courses{
+        padding: 0;
+    }
+
+    #best-reformer-courses:hover,
+    #best-pilates-courses:hover,
+    #best-outdoor-courses:hover,
+    #best-single-courses:hover {
+        border: solid 1px #4A0404;
+        padding: 0;
+        background-color: antiquewhite;
+    }
+
+    .best-course-box{
+        max-width:600px;
+        margin: 0;
+        height: 250px;
+    }
+
+} 

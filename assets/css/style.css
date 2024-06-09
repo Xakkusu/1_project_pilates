@@ -38,6 +38,7 @@ main{
     flex: 1 0 auto;
     margin-top: 53px;
     flex-direction: column;
+    padding-bottom: 2rem;
 }
 
 /*Header*/
@@ -170,6 +171,23 @@ nav{
 
 #best-single-courses-image {
     background: url(../images/best-single-courses-image.webp) center center / cover;
+}
+
+/* Why Pilates section on index page */
+#why-pilates {
+    text-align: justify;
+    padding: 1rem;
+}
+
+#why-pilates h2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#ul-why-pilates {
+    list-style-type:circle;
+    font-weight:550;
+    padding-left: 1.5rem;
 }
 
 /* Footer  */

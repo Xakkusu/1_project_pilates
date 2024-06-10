@@ -193,15 +193,72 @@ nav{
 /* Courses Page */
 
 /* Course table */
-table{
-    font-size: 85%;
-    /* to make table wholly visible on mobile */
-    overflow-x: auto;
-    display: block;
+#course-table {
+    margin: 2px auto;
+    text-align: center;
+    border:#4A0404 solid 1px;
+    border-radius: 5px;
 }
 
-td { 
+#table-room1 {
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
 
+#whole-table{
+    /* to make table wholly visible on mobile with horizontal scrolling*/
+    overflow-x: auto;
+    display: flex;
+    border-collapse: collapse;
+    padding: 1rem 1px 0 1px;
+    margin: 1px auto;
+    align-items: center;
+}
+
+th, td {
+    border: solid 1px #722F37;
+}
+
+th { 
+    padding: 0 3px;
+    min-width: 95px;
+}
+
+tr {
+    padding: 5px 0;
+}
+
+table p {
+    font-size: 90%;
+}
+
+/* color table content */
+#open-reformer {
+    background-color: rgba(245, 156, 160, 0.5);
+}
+
+#pilates-I {
+    background-color: rgba(206, 231, 164, 0.5);
+}
+
+#pilates-II {
+    background-color: rgba(150, 182, 95, 0.5);
+}
+
+#pilates-III {
+    background-color: rgba(168, 224, 72, 0.5);
+}
+
+#reformer-I {
+    background-color: rgba(232, 195, 250, 0.5);
+}
+
+#reformer-II {
+    background-color: rgba(215, 139, 253, 0.5);
+}
+
+#reformer-III {
+    background-color: rgba(161, 63, 211, 0.5);
 }
 
 /* Footer  */
@@ -231,6 +288,20 @@ footer {
         margin: auto;
     }
 
+}
+
+/* Media:query add responsiveness for small tablet sreens screens (680px and up) */
+@media screen and (min-width: 680px) {
+    /* Responsiveness of table */
+
+    #whole-table{
+        display: flex;
+        justify-content: center;
+    }
+
+    td, th {
+        min-width: 120px;
+    }
 }
 
 /* Media:query add responsiveness for tablets and larger (768px and up)*/
@@ -348,6 +419,12 @@ footer {
     }
     #ul-why-pilates {
         padding-left: 3rem;
+    }
+
+    /* change table size */
+
+     td, th {
+        min-width: 140px;
     }
 
 } 

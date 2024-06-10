@@ -233,31 +233,31 @@ table p {
 }
 
 /* color table content */
-#open-reformer {
+.open-reformer {
     background-color: rgba(245, 156, 160, 0.5);
 }
 
-#pilates-I {
+.pilates-I {
     background-color: rgba(206, 231, 164, 0.5);
 }
 
-#pilates-II {
+.pilates-II {
     background-color: rgba(150, 182, 95, 0.5);
 }
 
-#pilates-III {
+.pilates-III {
     background-color: rgba(168, 224, 72, 0.5);
 }
 
-#reformer-I {
+.reformer-I {
     background-color: rgba(232, 195, 250, 0.5);
 }
 
-#reformer-II {
+.reformer-II {
     background-color: rgba(215, 139, 253, 0.5);
 }
 
-#reformer-III {
+.reformer-III {
     background-color: rgba(161, 63, 211, 0.5);
 }
 

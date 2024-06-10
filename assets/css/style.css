@@ -190,6 +190,20 @@ nav{
     padding-left: 1.5rem;
 }
 
+/* Courses Page */
+
+/* Course table */
+table{
+    font-size: 85%;
+    /* to make table wholly visible on mobile */
+    overflow-x: auto;
+    display: block;
+}
+
+td { 
+
+}
+
 /* Footer  */
 footer {
     margin-top: auto;

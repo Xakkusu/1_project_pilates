@@ -291,6 +291,7 @@ table p {
     text-align: center;
 }
 
+/* make team photos responsive */
 #team img {
     width: 200px;
     height: 200px;
@@ -307,6 +308,20 @@ table p {
     flex-basis: 250px;
     flex-grow: 1;
     padding: 1rem;
+}
+
+/* Studio Section in About Us page */
+#studio {
+    padding: 0 1rem;
+    margin: auto;
+}
+
+#all-studio-photos img {
+    width: 100%;
+}
+
+.studio-photo {
+    line-height: 0;
 }
 
 /* Footer  */
@@ -334,6 +349,13 @@ footer {
     .best-course-box{
         max-width:396px;
         margin: auto;
+    }
+
+    
+    /* make studio photos responsive */
+    #all-studio-photos {
+        column-count: 3;
+        column-gap: 0;
     }
 
 }

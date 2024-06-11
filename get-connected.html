@@ -40,45 +40,53 @@
     </header>
     <main>
         <!-- Get Conected section-->
-         <section id="conncected">
-            <form action="https://formdump.codeinstitute.net" method="POST" id="get-connected-form">
+         <section id="connected">
+            <form action="thank-you.html" id="get-connected-form">
                 <h2>Get connected</h2>
                 <h3>So you won't miss out on new courses, discounts & outdoor classes</h3>
-                #<label for="first-name">First Name:</label>
-                <input type="text" name="first-name" id="first-name" placeholder="Enter your first name" required>
-                <br>
-                <label for="last-name">Last Name:</label>
-                <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required>
-                <br>
-                <label for="email-address">E-Mail Address:</label>
-                <input type="email" name="email-address" id="email-address" placeholder="Enter your mail address" required>
-                <br>
-                <label for="phone-number">Telephone number:</label>
-                <input type="tel" name="phone-number" id="phone-number" placeholder="Enter your mobile number" pattern="[0-9]{5,}" title="only enter numbers 0 to 9">
-                <br>
-                <div id="pilates-ability-radio-button">
-                    <legend>Pilates abilities:</legend>
-                    <input type="radio" name="pilates-abilities" id="beginner" value="beginner" required checked>
-                    <label for="beginner">Beginner</label>
-                    <input type="radio" name="pilates-abilities" id="intermediate" value="intermediate" required>
-                    <label for="intermediate">Intermediate</label>
-                    <input type="radio" name="pilates-abilities" id="pro" value="pro" required>
-                    <label for="pro">Pro</label>
+                <div class="connected-form-container">
+                    <label for="first-name">First Name: </label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Enter your first name" required class="input-element">
                 </div>
-                <div id="pilates-interests-checkboxes">
-                    <legend>What might interest you:</legend>
-                    <input type="checkbox" name="strength" id="strength">
-                    <label for="strength">Strength</label>
-                    <input type="checkbox" name="mobility" id="mobility">
-                    <label for="mobility">Mobility</label>
-                    <input type="checkbox" name="lifestyle" id="lifestyle">
-                    <label for="lifestyle">Lifestyle</label>
-                    <input type="checkbox" name="new-techniques" id="new-techniques">
-                    <label for="new-techniques">New Techniques</label>
-                    <input type="checkbox" name="retreats" id="retreats">
-                    <label for="retreats">Retreats</label>
+                <div class="connected-form-container">
+                    <label for="last-name">Last Name: </label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required class="input-element">
                 </div>
-                <button type="submit">Sign Up</button>
+                <div class="connected-form-container">
+                    <label for="email-address">E-Mail Address:</label>
+                    <input type="email" name="email-address" id="email-address" placeholder="Enter your mail address" required class="input-element">
+                </div>
+                <div class="connected-form-container">
+                    <label for="phone-number">Telephone number:</label>
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="Enter your mobile number" pattern="[0-9]{5,}" title="only enter numbers 0 to 9" class="input-element">
+                </div>
+                <div id="pilates-ability-radio-button" class="connected-form-container input-element">
+                    <fieldset>
+                        <legend>Pilates abilities:</legend>
+                        <input type="radio" name="pilates-abilities" id="beginner" value="beginner" required checked>
+                        <label for="beginner">Beginner</label>
+                        <input type="radio" name="pilates-abilities" id="intermediate" value="intermediate" required>
+                        <label for="intermediate">Intermediate</label>
+                        <input type="radio" name="pilates-abilities" id="pro" value="pro" required>
+                        <label for="pro">Pro</label>
+                    </fieldset>
+                </div>
+                <div id="pilates-interests-checkboxes" class="connected-form-container input-element">
+                    <fieldset>
+                        <legend>What might interest you:</legend>
+                        <input type="checkbox" name="strength" id="strength">
+                        <label for="strength">Strength</label>
+                        <input type="checkbox" name="mobility" id="mobility">
+                        <label for="mobility">Mobility</label>
+                        <input type="checkbox" name="lifestyle" id="lifestyle">
+                        <label for="lifestyle">Lifestyle</label>
+                        <input type="checkbox" name="new-techniques" id="new-techniques">
+                        <label for="new-techniques">New Techniques</label>
+                        <input type="checkbox" name="retreats" id="retreats">
+                        <label for="retreats">Retreats</label>
+                    </fieldset>
+                </div>
+                <button type="submit">sign up</button>
             </form>
          </section>
     </main>

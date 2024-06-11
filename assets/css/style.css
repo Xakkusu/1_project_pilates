@@ -325,6 +325,76 @@ table p {
     line-height: 0;
 }
 
+/* Get-Connected Page */
+
+#connected {
+    background-color: #f0ead6;
+    padding: 1rem;
+    text-align: center;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 300px;
+    margin: 50px auto;
+    border-radius: 25px;
+}
+
+/* Form */
+.connected-form-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
+    padding: 0.25rem 0.5rem;
+    max-width: 1080px;
+    align-items: center;
+    margin: auto;
+    width: 95%;
+}
+
+.input-element {
+    width: 100%;
+}
+
+.input-element[type=text],
+.input-element[type=tel],
+.input-element[type=email] {
+    padding: 10px 15px;
+    font-size: 75%;
+    border: 3px rgba(240,234,214, 0.7) solid;
+    border-radius: 5px;
+}
+
+.connected-form-container fieldset {
+    width: 80%;
+    border: 3px rgba(240,234,214, 0.7) solid;
+    border-radius: 5px;
+    padding: 5 5px;
+}
+
+#pilates-ability-radio-button label,
+#pilates-interests-checkboxes label {
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+/* style submit button on get connected page */
+
+button {
+    margin-top: 15px;
+    background-color: rgba(240,234,214, 0.7);
+    padding: 10px 25px;
+    font-size: 125%;
+    border: #4a0404a6 solid 3px;
+    border-radius: 5px;
+    color: #4A0404;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #fafafa;
+    background-color: #4A0404;
+    border: rgba(240,234,214, 0.7) solid 3px;
+}
+
 /* Footer  */
 footer {
     margin-top: auto;
@@ -352,6 +422,11 @@ footer {
         margin: auto;
     }
 
+    /* make get-connected form responsive */
+    #connected {
+        max-width: 400px;
+    }
+
 }
 
 /* Media:query add responsiveness for small tablet sreens screens (680px and up) */
@@ -372,6 +447,11 @@ footer {
         column-width: 35rem;
         column-gap: 2px;
         margin: unset;
+    }
+
+    /* make get-connected form responsive */
+    #connected {
+        max-width: 600px;
     }
 }
 
@@ -496,6 +576,15 @@ footer {
 
      td, th {
         min-width: 140px;
+    }
+
+    /* make get-connected form responsive */
+    #connected {
+        max-width: 800px;
+    }
+
+    .connected-form-container{
+        width: 80%;
     }
 
 } 

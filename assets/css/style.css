@@ -33,6 +33,14 @@ h2, h3 {
     font-weight: bold;
 }
 
+h2 {
+    /*border-bottom: #4A0404 1px solid;*/
+}
+
+p {
+    line-height: 1.6;
+}
+
 /* Main Element */
 main{
     /* Push footer down */
@@ -57,7 +65,7 @@ header{
     z-index: 99;
     align-items: baseline;
     background-color: #ffffff;
-    
+    box-shadow: rgba(58, 58, 58, 0.15) 0px 5px 5px;
 }
 
 header a{
@@ -69,7 +77,7 @@ header a{
     border-bottom: 1px solid #4A0404;
 }
 
-header a:hover{
+#menu a:hover{
     border-radius: 5px 5px 0 0;
     background-color: #4a040436;
 }
@@ -85,7 +93,8 @@ nav{
     background-color: #ffffff;
     /* when not checked invisible */
     display: none;
-    
+    /* for smaller screens */
+    box-shadow: rgba(58, 58, 58, 0.15) 0px 5px 5px;
 }
 
 /* Menu/navbar*/
@@ -142,7 +151,8 @@ nav{
 }
 
 #best-courses h2 {
-    padding-bottom: 0.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #best-courses h3 {
@@ -157,6 +167,11 @@ nav{
 
 .best-course-text {
     height: 100px;
+}
+
+#best-courses a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #best-reformer-courses, 
@@ -185,24 +200,26 @@ nav{
 /* Why Pilates section on index page */
 #why-pilates {
     text-align: justify;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 #why-pilates h2{
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 #ul-why-pilates {
     list-style-type:circle;
     font-weight:550;
     padding-left: 1.5rem;
+    line-height: 1.6;
 }
 
 /* Courses Page */
 
 /* Course table */
 #course-table {
+    padding-top: 1rem;
     margin: 2px auto;
     text-align: center;
     border:#4A0404 solid 1px;
@@ -226,6 +243,7 @@ nav{
 
 th, td {
     border: solid 1px #722F37;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 th { 
@@ -305,6 +323,7 @@ table p {
     width: 225px;
     height: 225px;
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #all-team-members {
@@ -345,6 +364,7 @@ table p {
     max-width: 300px;
     margin: 50px auto;
     border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Form */
@@ -428,6 +448,7 @@ button:hover{
 footer {
     margin-top: auto;
     background-color: #ffffff;
+    width: 100%;
 }
 
 #social-media-links{
@@ -498,6 +519,7 @@ footer {
         display: block;
         position: relative;
         width: fit-content;
+        box-shadow: none;
     }
     
     #menu{
@@ -578,9 +600,11 @@ footer {
     #best-pilates-courses:hover,
     #best-outdoor-courses:hover,
     #best-single-courses:hover {
-        border: solid 1px #4A0404;
+        border: solid 2px #4A0404;
+        border-radius: 4px;
         padding: 0;
-        background-color: antiquewhite;
+        color: rgb(245,237,228);
+        background-color: #4a040473;
     }
 
     .best-course-box{

@@ -6,8 +6,8 @@ FIXED BUGS
     - added absolute position in navbar so that its position stay relative to the header and is taken out of the normal flow
     - menu items were placed directly under header with top:100% and placed left:0
 2.  table wasn't wholy visible on smaller screens
-    - the table wor weekdays was horizontally too large but adding the days below one another would have taken too much space and could be confusing for user to compare days and time
-    - added overvlow-x:auto to tabble element to add a horizontal scroll bar for table content which was too big for its block level element
+    - the table for weekdays was horizontally too large for mobile devices but adding the days below one another would have taken too much space and could be confusing for user to compare days and time
+    - added overvlow-x:auto to tabble element to add a horizontal scroll bar for table content which was too big for its block level element; user can however always rotate their phone which would show it wholy either way
 
 
 

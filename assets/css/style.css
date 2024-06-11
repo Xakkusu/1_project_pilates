@@ -15,6 +15,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(245,237,228);
 }
 
 h1 {
@@ -56,6 +57,7 @@ header{
     z-index: 99;
     align-items: baseline;
     background-color: #ffffff;
+    
 }
 
 header a{
@@ -67,6 +69,12 @@ header a{
     border-bottom: 1px solid #4A0404;
 }
 
+header a:hover{
+    border-radius: 5px 5px 0 0;
+    background-color: #4a040436;
+}
+
+
 /* navbar to make mobile menu toggable */
 nav{
     position: absolute;
@@ -77,6 +85,7 @@ nav{
     background-color: #ffffff;
     /* when not checked invisible */
     display: none;
+    
 }
 
 /* Menu/navbar*/
@@ -367,7 +376,7 @@ table p {
     width: 80%;
     border: 3px rgba(240,234,214, 0.7) solid;
     border-radius: 5px;
-    padding: 5 5px;
+    padding: 5px 5px;
 }
 
 #pilates-ability-radio-button label,
@@ -418,6 +427,7 @@ button:hover{
 /* Footer  */
 footer {
     margin-top: auto;
+    background-color: #ffffff;
 }
 
 #social-media-links{

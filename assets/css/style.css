@@ -34,11 +34,12 @@ h2, h3 {
 }
 
 h2 {
-    /*border-bottom: #4A0404 1px solid;*/
+    padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 /* Main Element */
@@ -582,7 +583,8 @@ footer {
 
     /* Courses-Section  on index page*/
     #best-courses{
-        width: 1200px;
+        min-width: 970px;
+        max-width: 1200px;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -617,7 +619,7 @@ footer {
     /* Why pilates section index page */
     #why-pilates {
         max-width: 1500px;
-        min-width: 1200PX;
+        min-width: 970PX;
         justify-content: center;
         flex-direction: column;
         align-self: center;

@@ -196,7 +196,7 @@ nav{
 /* Why Pilates section on index page */
 #why-pilates {
     text-align: justify;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 3rem 2rem;
 }
 
 #why-pilates h2{
@@ -285,7 +285,7 @@ table p {
 
 /* Price Section on Courses Page */
 #prices {
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     text-align: center;
 }
 
@@ -347,7 +347,7 @@ table p {
 
 /* Studio Section in About Us page */
 #studio {
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     margin: auto;
 }
 

@@ -216,15 +216,14 @@ nav{
 
 /* Course table */
 #course-table {
-    padding-top: 1rem;
-    margin: 2px auto;
+    padding-top: 2rem;
+    margin: auto;
     text-align: center;
-    border:#4A0404 solid 1px;
     border-radius: 5px;
 }
 
 #table-room1 {
-    padding-bottom: 1rem;
+    padding: 0 0.5rem 1rem 0.5rem;
     margin: 0 auto;
 }
 
@@ -311,7 +310,7 @@ table p {
 /* About Us Page */
 /* Our Team Section */
 #team {
-    padding: 1rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     margin: auto;
     text-align: center;
 }

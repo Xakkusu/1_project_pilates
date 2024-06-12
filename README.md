@@ -8,6 +8,10 @@ FIXED BUGS
 2.  table wasn't wholy visible on smaller screens
     - the table for weekdays was horizontally too large for mobile devices but adding the days below one another would have taken too much space and could be confusing for user to compare days and time
     - added overvlow-x:auto to tabble element to add a horizontal scroll bar for table content which was too big for its block level element; user can however always rotate their phone which would show it wholy either way
+3. From 992px and upwards the size of the index-page was dislocated from the size of the screen, which after some testing was found out to have come from the Why Pilates?-section on that page
+    - width of why-pilates and of best-courses section were to wide, especially the may width with no min width attribute in the why pilates section
+    - added min width attribute which is smaller than starting screen size of this media query and giving it a new max width attribute, same with the best-course section
+    - content were well fitted to screen size again
 
 
 

@@ -336,6 +336,17 @@ table p {
     padding: 1rem;
 }
 
+#all-team-members h4 {
+    padding: 6px 5px 4px 5px;
+}
+
+#language-teaching {
+    width: 200px;
+    margin: auto;
+    color: #722F37;
+    font-size: 92%;
+}
+
 /* Studio Section in About Us page */
 #studio {
     padding: 0 1rem;

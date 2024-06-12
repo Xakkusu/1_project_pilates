@@ -433,6 +433,19 @@ input[type=radio] {
     margin-top: 10px;
 }
 
+/* wrap radio-buttons, checkboxes and their labels together */
+#label-checkbox-grouped-container,
+#label-radio-grouped-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.label-checkbox-grouped, .label-radio-grouped {
+    padding: 0 5px;
+}
+
 /* style submit button on get connected page */
 
 button {

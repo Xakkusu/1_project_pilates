@@ -399,13 +399,25 @@ table p {
     width: 100%;
 }
 
-.input-element[type=text],
-.input-element[type=tel],
-.input-element[type=email] {
+input[type=text],
+input[type=tel],
+input[type=email] {
     padding: 10px 15px;
     font-size: 75%;
     border: 3px rgba(240,234,214, 0.7) solid;
     border-radius: 5px;
+}
+
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=email]:focus {
+    outline-color: #722F37;
+    color: #4A0404;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    accent-color: #4A0404;
 }
 
 .connected-form-container fieldset {

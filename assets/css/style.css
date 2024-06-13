@@ -287,6 +287,15 @@ table p {
 #prices {
     padding: 1rem 1rem 3rem 1rem;
     text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+#outdoor-price-text,
+#open-reformer-price-text, 
+#pilates-price-text, 
+#reformer-price-text {
+    padding-top: 5px;
 }
 
 #course-prices {
@@ -299,11 +308,14 @@ table p {
 .price-box {
     border: solid 1.5px #4A0404;
     border-radius: 10px;
-    padding: 5px;
+    padding: 8px 5px;
     flex-basis: 250px;
     flex-grow: 1;
     background-color: #4a040473;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* About Us Page */
@@ -338,7 +350,7 @@ table p {
     padding: 6px 5px 4px 5px;
 }
 
-#language-teaching {
+.language-teaching {
     width: 200px;
     margin: auto;
     color: #722F37;
@@ -367,7 +379,7 @@ table p {
     height: 100%;
     padding: 3.5rem 0;
     width: 100%;
-    min-height: 89vh;
+    min-height: 89.5vh;
 }
 
 /* Style get-connected form */

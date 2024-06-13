@@ -61,7 +61,7 @@ header{
     z-index: 99;
     align-items: baseline;
     background-color: #ffffff;
-    box-shadow: rgba(58, 58, 58, 0.15) 0px 5px 5px;
+    box-shadow: rgba(58, 58, 58, 0.15) 0 5px 5px;
 }
 
 header a{
@@ -90,7 +90,7 @@ nav{
     /* when not checked invisible */
     display: none;
     /* for smaller screens */
-    box-shadow: rgba(58, 58, 58, 0.15) 0px 5px 5px;
+    box-shadow: rgba(58, 58, 58, 0.15) 0 5px 5px;
 }
 
 /* Menu/navbar*/
@@ -196,7 +196,7 @@ nav{
 /* Why Pilates section on index page */
 #why-pilates {
     text-align: justify;
-    padding: 1rem 2rem 3rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 #why-pilates h2{
@@ -211,8 +211,34 @@ nav{
     line-height: 1.6;
 }
 
-/* Courses Page */
+/* Location section */
+#location {
+    padding: 1rem 1rem 3rem 1rem;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
 
+#location-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#contact-information {
+    width: 90%;
+}
+
+iframe {
+    width: 90%;
+}
+
+/* Courses Page */
 /* Course table */
 #course-table {
     padding-top: 2rem;
@@ -238,7 +264,7 @@ nav{
 
 th, td {
     border: solid 1px #722F37;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 th { 
@@ -312,7 +338,7 @@ table p {
     flex-basis: 250px;
     flex-grow: 1;
     background-color: #4a040473;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -331,7 +357,7 @@ table p {
     width: 225px;
     height: 225px;
     border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 #all-team-members {
@@ -379,7 +405,7 @@ table p {
     height: 100%;
     padding: 3.5rem 0;
     width: 100%;
-    min-height: 89.5vh;
+    min-height: 100vh;
 }
 
 /* Style get-connected form */
@@ -392,7 +418,7 @@ table p {
     max-width: 300px;
     margin: auto;
     border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 18px;
 }
 
 /* Form */
@@ -531,6 +557,22 @@ footer {
         max-width: 400px;
     }
 
+    /* make address information and google map iframe appear next to one another */
+    #location-container{
+        max-width: 750px;
+    }
+    
+    #contact-information {
+        width: 50%;
+        align-self: center;
+        padding-right: 15px;
+    }
+
+    iframe{
+        width: 50%;
+        padding: 5px;
+    }
+
 }
 
 /* Media:query add responsiveness for small tablet sreens screens (680px and up) */
@@ -561,10 +603,6 @@ footer {
 
 /* Media:query add responsiveness for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
-    /* Hero image and Cover-Text */
-    #cover-text{
-
-    }
 
     /* make navbar visible again and display menu-list horizontally */
     nav {

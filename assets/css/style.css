@@ -347,13 +347,14 @@ table p {
 
 /* feedback Section */
 #feedback-container {
-    padding: 1rem 1rem 3rem 1rem;
+    padding: 1.5rem 1rem 3rem 1rem;
     text-align: center;
     margin: auto;
     width: 90%;
 }
-
+/* make it responsive */
 #feedback-images {
+    padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -372,7 +373,7 @@ table p {
     color: #fafafa;
 }
 
-.feedback-img-text p {
+.feedback-img-text-paragraph {
     padding: 5px;
 }
 
@@ -381,8 +382,6 @@ table p {
     border-radius: 15px;
     height: 200px;
 }
-
-
 
 /* About Us Page */
 /* Our Team Section */
@@ -762,6 +761,32 @@ footer {
 
      td, th {
         min-width: 140px;
+    }
+
+    /* change feeback section on large display with hovering effect */
+    
+    .feedback-img-text {
+        height: 200px;
+        position: relative;
+        background-color: unset;
+    }
+    /*will not display text when no hover*/
+    .feedback-img-text-paragraph{
+        display: none;
+    }
+
+    .feedback-img {
+        box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    }
+    /* will display feedback text when hovering the element */
+    .feedback-img-text:hover .feedback-img-text-paragraph{
+        display: block;
+        bottom: 0;
+        left: 0;
+        background-color: #4a040493;
+        border-radius: 15px;
+        position: absolute;
+        padding: 8px;
     }
 
     /* make get-connected form responsive */

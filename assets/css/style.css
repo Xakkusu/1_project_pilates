@@ -226,7 +226,7 @@ nav{
     margin: auto;
 }
 
-#bold {
+.bold {
     font-weight: bold;
 }
 
@@ -311,7 +311,7 @@ table p {
 
 /* Price Section on Courses Page */
 #prices {
-    padding: 1rem 1rem 3rem 1rem;
+    padding: 1rem;
     text-align: center;
     margin: auto;
     width: 90%;
@@ -329,6 +329,7 @@ table p {
     flex-wrap: wrap;
     justify-content: space-around;
     color: #fafafa;
+    gap: 4px;
 }
 
 .price-box {
@@ -343,6 +344,45 @@ table p {
     flex-direction: column;
     justify-content: center;
 }
+
+/* feedback Section */
+#feedback-container {
+    padding: 1rem 1rem 3rem 1rem;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+#feedback-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    gap: 4px;
+}
+
+.feedback-img-text {
+    width:300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border-radius: 15px;
+    height: 370px;
+    line-height: 1.6;
+    background-color: #4a040473;
+    color: #fafafa;
+}
+
+.feedback-img-text p {
+    padding: 5px;
+}
+
+.feedback-img {
+    width:300px;
+    border-radius: 15px;
+    height: 200px;
+}
+
+
 
 /* About Us Page */
 /* Our Team Section */

@@ -1,9 +1,22 @@
 # Pipalates
+Pipialtes is a website that offers a pilates studio an online platform. The Pipalates studio itself offers pilates courses which are meant to improve the customers wellbeing. Through this webistes the user is informed about those services,a bout the studio and pilates over all. This webiste is hence meant to have a userbase made up of already existing customers as well as people that are interested in pialtes and reformer class in Vienna, Austria.
+
+Pipalates' website includes basic pilates informations, information abut what courses exist and at what time those take place. Moreover, the website gives the user information about previous experience of customer via their feedback section. The location as well as more studio and team information is given to the user. If the user wants to stay up-to-date with information from the studio he or she can subscribe to a newsletter.
 
 The live link can be found here - [Pipalates](https://xakkusu.github.io/1_project_pilates/index.html)
 
+![Pipalates Am I Responsive Image](docs/readme-images/pipalates-amiresponsive.png)
+
 
 ## SITE OWNER GOALS
+- to provide the user with information that there is a pipalates studio in Vienna
+- to provide the user with course information as well as course times of the pipalates studio
+- to provide the user with a clear short overview of what pilates is and its benefits
+- to provide the user with the location information of the pipalates studio
+- to give feedback to the user of the pipalates studio's services
+- to provide the user with information about teacher of the studio as well as equipment and look of the studio
+- to offer the user the chance of staying in contact with the studio, to receive information about discounts, new events etc. all according to the user's preferences
+
 ## USER STORIES
 ## DESIGN
 ## WIREFRAMES

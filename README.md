@@ -8,6 +8,23 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 ![Pipalates Am I Responsive Image](docs/readme-images/pipalates-amiresponsive.png)
 
 
+## Contents
+- [SITE OWNER GOALS](#site-owner-goals)
+- [USER EXPERIENCE (UX)](#user-experience-ux)
+    - [User Stories](#user-stories)
+- [WIREFRAMES](#wireframes)
+- [FINAL DESIGN](#final-design)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Final Look](#final-look)
+- [FEATURES](#feautures)
+- [TESTING](#testing)
+    - [Fixed Bugs](#fixed-bugs)
+- [TECHNOLOGIES USED](#technologies-used)
+- [DEPLOYMENT](#deployment)
+-[CREDITS](#credits)
+- [ACKNOWLEDGEMENTS](#acknowledgments)
+
 ## SITE OWNER GOALS
 - to provide the user with information that there is a pipalates studio in Vienna and motivate them to engage with it
 - to provide the user with course information as well as course times of the pipalates studio
@@ -20,7 +37,7 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 ## USER EXPERIENCE (UX)
 ### User Stories
 #### First Time User Goals
-- I want the website to be easy to understand
+- I want the website to be easy to understand the main purpose of the website
 - I want the website to be easy to navigate
 - I want to know about services/classes being offered
 - I want to know the cost of courses
@@ -64,7 +81,7 @@ Wireframes were produced using Balsamiq.
 ### Color Scheme
 ### Typography
 ### Final Look
-<summary>Desktop Wireframe</summary>
+<summary>Desktop</summary>
 
 ![Desktop Wireframe]()
  </details>

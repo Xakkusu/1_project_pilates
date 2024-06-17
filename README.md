@@ -24,6 +24,12 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
         - [Buttons](#button)
     - [Final Look](#final-look)
 - [FEATURES](#feautures)
+    - [Index Page](#index-page)
+    - [Courses Page](#courses-page)
+    - [About Us Page](#about-us-page)
+    - [Get Connected Page](#get-connected-page)
+    - [Thank You Page](#thank-you-page)
+    - [How to Use](#how-to-use)
 - [TESTING](#testing)
     - [Fixed Bugs](#fixed-bugs)
 - [TECHNOLOGIES USED](#technologies-used)
@@ -70,23 +76,23 @@ Wireframes were produced using Balsamiq.
  <summary>Desktop Wireframe</summary>
 Index Page:
 
-<img src="" width="70%" alt="Desktop Index Wireframe">
+<img src="" width="90%" alt="Desktop Index Wireframe">
 
 Courses Page:
 
-<img src="" width="70%" alt="Desktop Courses Wireframe">
+<img src="" width="90%" alt="Desktop Courses Wireframe">
 
 About Us Page:
 
-<img src="" width="70%" alt="Desktop About Us Wireframe">
+<img src="" width="90%" alt="Desktop About Us Wireframe">
 
 Get Connected Page:
 
-<img src="" width="70%" alt="Desktop Get Connected Wireframe">
+<img src="" width="90%" alt="Desktop Get Connected Wireframe">
 
 Thank You Page:
 
-<img src="" width="70%" alt="Desktop Thank You Wireframe">
+<img src="" width="90%" alt="Desktop Thank You Wireframe">
 
  </details>
 
@@ -95,23 +101,23 @@ Thank You Page:
 
 Index Page:
 
-<img src="docs/wireframe/index-page-smartphone.png" width="40%" alt="Mobile Index Wireframe">
+<img src="docs/wireframe/index-page-smartphone.png" width="50%" alt="Mobile Index Wireframe">
 
 Courses Page:
 
-<img src="docs/wireframe/courses-smartphone.png" width="40%" alt="Mobile Courses Wireframe">
+<img src="docs/wireframe/courses-smartphone.png" width="50%" alt="Mobile Courses Wireframe">
 
 About Us Page:
 
-<img src="docs/wireframe/about-us-smartphoone.png" width="40%" alt="Mobile About Us Wireframe">
+<img src="docs/wireframe/about-us-smartphoone.png" width="50%" alt="Mobile About Us Wireframe">
 
 Get Connected Page:
 
-<img src="docs/wireframe/get-connected-smartphone.png" width="40%" alt="Mobile Get Connected Wireframe">
+<img src="docs/wireframe/get-connected-smartphone.png" width="50%" alt="Mobile Get Connected Wireframe">
 
 Thank You Page:
 
-<img src="" width="40%" alt="Mobile Thank You Wireframe">
+<img src="" width="50%" alt="Mobile Thank You Wireframe">
 
  </details>
 
@@ -126,14 +132,17 @@ The color palette was created by using the [coolors](https://coolors.co/) websit
 
 ### Typography
 [Google Fonts](https://fonts.google.com/) was used for the following fonts:
-- ![Montserrat font image](docs/readme-images/montserrat.PNG) [Montserrat](https://fonts.google.com/specimen/Montserrat) was was chosen for the main body as it was neutral and easy to read.
-- ![Raleway font image](docs/readme-images/raleway.PNG) For the final H1 Heading [Raleway](https://fonts.google.com/specimen/Raleway) was used to lift the website's name/Logo apart from the other text, but not too much to keep in line of the general visual outlook of the page.
+- ![Montserrat font image](docs/readme-images/montserrat.PNG) 
+[Montserrat](https://fonts.google.com/specimen/Montserrat) was was chosen for the main body as it was neutral and easy to read.
+- ![Raleway font image](docs/readme-images/raleway.PNG) 
+For the final H1 Heading [Raleway](https://fonts.google.com/specimen/Raleway) was used to lift the website's name/Logo apart from the other text, but not too much to keep in line of the general visual outlook of the page.
 - Sans Serif was chosen as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
 ### Visual Effects
 Images and more information for these effects are given in the [Features](#feautures) part.
 #### Shadows
-The mavbar/header-element has on the movie device as well as on all other screen sizes a box-shadow as it is fixed at the top of the screen while scrolling. Thrugh this it sets itself apart from the other content and serves as a visual-anchor-point for users.
+The navbar/header-element has on the movie device as well as on all other screen sizes a box-shadow as it is fixed at the top of the screen while scrolling. Thrugh this it sets itself apart from the other content, hinders blending with said content and serves as a visual-anchor-point for users.
+The Get Connected Form, the content of the schedule-table, images of trainers and feedback elements all have shadows as well to lift themseves up from the other content.
 #### Navbar Hover Effect
 On large screen when choosing a menu-section a hover-effect will appear on the topic on which the cursor is "on top off". The font-color will turn white while the background will appear in a darker brown color to make it stand out.
 #### Hover over images
@@ -147,23 +156,23 @@ On the Sign-Form of the get connected page when hovering over the "sign up" butt
 
 Index Page:
 
-<img src="docs/final-look/final-look-index-desktop.html.png" width="70%" alt="Desktop Index Page">
+<img src="docs/final-look/final-look-index-desktop.html.png" width="90%" alt="Desktop Index Page">
 
 Courses Page:
 
-<img src="docs/final-look/final-look-courses-desktop.html.png" width="70%" alt="Desktop Courses Page">
+<img src="docs/final-look/final-look-courses-desktop.html.png" width="90%" alt="Desktop Courses Page">
 
 About Us Page:
 
-<img src="docs/final-look/final-look-about-us-desktop.html.png" width="70%" alt="Desktop About Us Page">
+<img src="docs/final-look/final-look-about-us-desktop.html.png" width="90%" alt="Desktop About Us Page">
 
 Get Connected Page:
 
-<img src="docs/final-look/final-look-get-connected-desktop.html.png" width="70%" alt="Desktop Get Connected Page">
+<img src="docs/final-look/final-look-get-connected-desktop.html.png" width="90%" alt="Desktop Get Connected Page">
 
 Thank You Page:
 
-<img src="docs/final-look/final-look-thank-you-desktop.html.png" width="70%" alt="Desktop Thank You Page">
+<img src="docs/final-look/final-look-thank-you-desktop.html.png" width="90%" alt="Desktop Thank You Page">
 
  </details>
 
@@ -172,32 +181,75 @@ Thank You Page:
 
 Index Page:
 
-<img src="docs/final-look/final-look-index-mobile.html.png" width="40%" alt="Mobile Index Page">
+<img src="docs/final-look/final-look-index-mobile.html.png" width="50%" alt="Mobile Index Page">
 
 Courses Page:
 
-<img src="docs/final-look/final-look-courses-mobile.html.png" width="40%" alt="Mobile Courses Page">
+<img src="docs/final-look/final-look-courses-mobile.html.png" width="50%" alt="Mobile Courses Page">
 
 About Us Page:
 
-<img src="docs/final-look/final-look-about-us-mobile.html.png" width="40%" alt="Mobile About Us Page">
+<img src="docs/final-look/final-look-about-us-mobile.html.png" width="50%" alt="Mobile About Us Page">
 
 Get Connected Page:
 
-<img src="docs/final-look/final-look-get-connected-mobile.html.png" width="40%" alt="Mobile Get Connected Page">
+<img src="docs/final-look/final-look-get-connected-mobile.html.png" width="50%" alt="Mobile Get Connected Page">
 
 Thank You Page:
 
-<img src="docs/final-look/final-look-thank-you-mobile.html.png" width="40%" alt="Mobile Thank You Page">
+<img src="docs/final-look/final-look-thank-you-mobile.html.png" width="50%" alt="Mobile Thank You Page">
 
  </details>
 
 
 ## FEAUTURES
+All pages have the following in common:
+#### Favicon
+<img src="docs/features/favicon-feature.PNG" alt="favicon in browser tab">
+
+#### Navbar
+
+<img src="docs/features/navbar-feature.html.png" alt="navbar in browser">
+
+- The navbar includes the Logo and the menu. The menu consists of Home, Courses, About Us, Get Connected pages.
+- The navbar is fixed at the top so that it stays visible while scrolling the page, hence the user is able to navigate themselves from page to page whener they please.
+- When selecting a menu item the selected page will open in the same window.
+- When selecting the logo to index page will open.
+
+<img src="docs/features/navbar-selected-feature.html.png" alt="hovered mentu item in  browser">
+
+- When hovering the menu items the background color of the hovered item will change to a darker brown and its font-color will change to white.
+- While being on a page the navbar menu item that belongs to the open page is shown with an underline.
+
+<img src="docs/features/navbar-mobile-feature.html.png" alt="navbar on mobile device" width="40%">  <img src="docs/features/navbar-mobile-selected-feature.html.png" alt="navbar selected on mobile device" width="40%">
+
+- on smaller screens the menu items are replaced by a burger-menu-icon. When selected the menu items are shown via a drop down option and can then be selected
+
+#### Footer
+<img src="docs/features/footer-feature.html.png" alt="footer with social media icons">
+
+- The footer section includes Pipalates' Instagram, Youtube, TikTok and Facebook pages.
+- When selecting one of these links, a new tab will open to that social-media platform.
+
+
+### Index Page
+
+### Courses Page
+
+### About Us Page
+
+### Get Connected Page
+
+### Thank You Page
 
 ### How to Use
 
 ## TESTING
+form testing
+amiresponsive 
+responsinator
+lighthouse
+waves
 
 ### FIXED BUGS
 1. header and navbar were styled incorrectly so that the header fully covered navbar/menu when its position is fixed:

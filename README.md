@@ -14,16 +14,21 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
     - [User Stories](#user-stories)
 - [WIREFRAMES](#wireframes)
 - [FINAL DESIGN](#final-design)
+    - [Imagery](#imagery)
     - [Color Scheme](#color-scheme)
     - [Typography](#typography)
+    - [Visual Effects](#visual-effects)
+        - [Shadows](#shadows)
+        - [Navbar Hover Effect](#navbar-hover-effect)
+        - [Hover over images](#hover-over-images)
+        - [Buttons](#button)
     - [Final Look](#final-look)
 - [FEATURES](#feautures)
 - [TESTING](#testing)
     - [Fixed Bugs](#fixed-bugs)
 - [TECHNOLOGIES USED](#technologies-used)
 - [DEPLOYMENT](#deployment)
--[CREDITS](#credits)
-- [ACKNOWLEDGEMENTS](#acknowledgments)
+- [CREDITS](#credits)
 
 ## SITE OWNER GOALS
 - to provide the user with information that there is a pipalates studio in Vienna and motivate them to engage with it
@@ -78,12 +83,36 @@ Wireframes were produced using Balsamiq.
  </details>
 
 ## FINAL DESIGN
+### Imagery
+All images on the webpage were taken from pexels.com. I have credited these in the [credits](#credits) section. All images on this website are free stock photos which are royalty free. The images were selected as they showed pilates, a pilates studio and people in an aesthetically pleasing way. Especially the studio images were chosen in line with the color theme used for this website using brownish earthly colors. Hence these colors correlate as good as possible with a relaxed but yet strong overall theme of the website and pilates itself.
+
 ### Color Scheme
+![Pipalates Color Palette](docs/readme-images/colorscheme.png)
+I chose brown-redish and beige colours for a relaxed feeling but at the same time a sense of strength. Brown colors are often used in pilates sutdio designs as well as in pilates' clothing and accessoires therefore these colors were chosen as they are already established within the community.
+The color palette was created by using the [coolors](https://coolors.co/) website.
+
 ### Typography
+[Google Fonts](https://fonts.google.com/) was used for the following fonts:
+- ![Montserrat font image](docs/readme-images/montserrat.PNG) [Montserrat](https://fonts.google.com/specimen/Montserrat) was was chosen for the main body as it was neutral and easy to read.
+- ![Raleway font image](docs/readme-images/raleway.PNG) For the final H1 Heading [Raleway](https://fonts.google.com/specimen/Raleway) was used to lift the website's name/Logo apart from the other text, but not too much to keep in line of the general visual outlook of the page.
+- Sans Serif was chosen as a backup font, in case for any reason the main font isn't being imported into the site correctly.
+
+### Visual Effects
+Images and more information for these effects are given in the [Features](#feautures) part.
+#### Shadows
+The mavbar/header-element has on the movie device as well as on all other screen sizes a box-shadow as it is fixed at the top of the screen while scrolling. Thrugh this it sets itself apart from the other content and serves as a visual-anchor-point for users.
+#### Navbar Hover Effect
+On large screen when choosing a menu-section a hover-effect will appear on the topic on which the cursor is "on top off". The font-color will turn white while the background will appear in a darker brown color to make it stand out.
+#### Hover over images
+On large sreens the feedback text, instead of being under the images of the feedback section it will be shown on top of images while hovering over them. The font-colour will turn white and the background color brown-redish to make it stand out.
+#### Button
+On the Sign-Form of the get connected page when hovering over the "sign up" button the buttons font-color and background color will switch. Thus the font-color will be white and the background color a dark brown. The cursor itself will be a shown as a cursor when hovering the element. This is done to on the one hand make it stand out and on the other signal to the user that it can be clicked.
+
 ### Final Look
+ <details>
 <summary>Desktop</summary>
 
-![Desktop Wireframe]()
+![Desktop Final Look]()
  </details>
 
  <details>
@@ -98,6 +127,9 @@ Wireframes were produced using Balsamiq.
 
 
 ## FEAUTURES
+
+### How to Use
+
 ## TESTING
 
 ### FIXED BUGS
@@ -120,7 +152,7 @@ Wireframes were produced using Balsamiq.
 ## DEPLOYMENT
 The steps to deploy this project using GitHub pages were the following:
 1. Go to the Settings tab of your GitHub repository.
-2. On the left-hand sidebar, in the Code and automation section, select "Pages§.
+2. On the left-hand sidebar, in the Code and automation section, select "Pages".
 3. Make sure to select the following:
     - Source is set to 'Deploy from Branch'.
     - Main branch is selected.
@@ -132,4 +164,3 @@ The steps to deploy this project using GitHub pages were the following:
 The live link can be found here - [Pipalates](https://xakkusu.github.io/1_project_pilates/index.html)
 
 ## CREDITS
-## ACKNOWLEDGMENTS

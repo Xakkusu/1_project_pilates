@@ -73,9 +73,11 @@ header a{
     border-bottom: 1px solid #4A0404;
 }
 
+/* menu points hover effect is added */
 #menu a:hover{
     border-radius: 5px 5px 0 0;
-    background-color: #4a040436;
+    background-color: #4a04049c;
+    color: #fafafa;
 }
 
 
@@ -523,8 +525,7 @@ input[type=radio] {
     padding: 0 5px;
 }
 
-/* style submit button on get connected page */
-
+/* style submit button on get connected page*/
 button {
     margin-top: 15px;
     background-color: rgba(240,234,214, 0.7);
@@ -536,6 +537,7 @@ button {
     cursor: pointer;
 }
 
+/* add button hovering effect */
 button:hover{
     color: #fafafa;
     background-color: #4A0404;
@@ -727,6 +729,7 @@ footer {
         padding: 0;
     }
 
+    /* hovering effect for large screens on different course elements */
     #best-reformer-courses:hover,
     #best-pilates-courses:hover,
     #best-outdoor-courses:hover,
@@ -764,7 +767,6 @@ footer {
     }
 
     /* change feeback section on large display with hovering effect */
-    
     .feedback-img-text {
         height: 200px;
         position: relative;

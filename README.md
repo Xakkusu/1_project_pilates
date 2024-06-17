@@ -1,5 +1,5 @@
 # Pipalates
-Pipialtes is a website that offers a pilates studio an online platform. The Pipalates studio itself offers pilates courses which are meant to improve the customers wellbeing. Through this webistes the user is informed about those services,a bout the studio and pilates over all. This webiste is hence meant to have a userbase made up of already existing customers as well as people that are interested in pialtes and reformer class in Vienna, Austria.
+Pipialtes is a static website that offers a pilates studio an online platform. The Pipalates studio itself offers pilates courses which are meant to improve the customers wellbeing. Through this webistes the user is informed about those services,a bout the studio and pilates over all. This webiste is hence meant to have a userbase made up of already existing customers as well as people that are interested in pialtes and reformer class in Vienna, Austria.
 
 Pipalates' website includes basic pilates informations, information abut what courses exist and at what time those take place. Moreover, the website gives the user information about previous experience of customer via their feedback section. The location as well as more studio and team information is given to the user. If the user wants to stay up-to-date with information from the studio he or she can subscribe to a newsletter.
 
@@ -9,7 +9,7 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 
 
 ## SITE OWNER GOALS
-- to provide the user with information that there is a pipalates studio in Vienna
+- to provide the user with information that there is a pipalates studio in Vienna and motivate them to engage with it
 - to provide the user with course information as well as course times of the pipalates studio
 - to provide the user with a clear short overview of what pilates is and its benefits
 - to provide the user with the location information of the pipalates studio
@@ -17,8 +17,29 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 - to provide the user with information about teacher of the studio as well as equipment and look of the studio
 - to offer the user the chance of staying in contact with the studio, to receive information about discounts, new events etc. all according to the user's preferences
 
-## USER STORIES
-## DESIGN
+## USER EXPERIENCE (UX)
+### User Stories
+#### First Time User Goals
+- I want the website to be easy to understand
+- I want the website to be easy to navigate
+- I want to know about services/classes being offered
+- I want to know the cost of courses
+- I want to know when the courses will be held
+- I want to know where the studio is located
+- I want to know about trainers
+- I want to know about the studios equipment
+- I want to know how I can contact the studio
+
+#### Returning User Goals
+- I want to know updated information about courses (especially as I progress myself with the levels)
+- I want to know how to contact the studio
+- I want to stay up-tp-date with new classes and trainers
+
+#### Frequent User Goals
+- I want to stay up-tp-date with new classes and trainers
+- I want to stay up-to-date with new studio equipment
+- I want to be able to to show my feedback on the website via contact information
+
 ## WIREFRAMES
 Wireframes were produced using Balsamiq. 
 
@@ -36,8 +57,27 @@ Wireframes were produced using Balsamiq.
 ![Mobile Wireframe Courses Page](docs/wireframe/courses-smartphone.png)
 ![Mobile Wireframe About Us Page](docs/wireframe/about-us-smartphoone.png)
 ![Mobile Wireframe Get Connected Page](docs/wireframe/get-connected-smartphone.png)
+![Mobile Wireframe Thank You Page]()
  </details>
 
+## FINAL DESIGN
+### Color Scheme
+### Typography
+### Final Look
+<summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe]()
+ </details>
+
+ <details>
+    <summary>Mobile</summary>
+
+![Mobile Index Page]()
+![Mobile Courses Page]()
+![Mobile About Us Page]()
+![Mobile  Get Connected Page]()
+![Mobile  Thank You Page]()
+ </details>
 
 
 ## FEAUTURES

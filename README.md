@@ -68,18 +68,51 @@ Wireframes were produced using Balsamiq.
  <details>
 
  <summary>Desktop Wireframe</summary>
+Index Page:
 
-![Desktop Wireframe]()
+<img src="" width="70%" alt="Desktop Index Wireframe">
+
+Courses Page:
+
+<img src="" width="70%" alt="Desktop Courses Wireframe">
+
+About Us Page:
+
+<img src="" width="70%" alt="Desktop About Us Wireframe">
+
+Get Connected Page:
+
+<img src="" width="70%" alt="Desktop Get Connected Wireframe">
+
+Thank You Page:
+
+<img src="" width="70%" alt="Desktop Thank You Wireframe">
+
  </details>
 
  <details>
     <summary>Mobile Wireframe</summary>
 
-![Mobile Wireframe Index Page](docs/wireframe/index-page-smartphone.png)
-![Mobile Wireframe Courses Page](docs/wireframe/courses-smartphone.png)
-![Mobile Wireframe About Us Page](docs/wireframe/about-us-smartphoone.png)
-![Mobile Wireframe Get Connected Page](docs/wireframe/get-connected-smartphone.png)
-![Mobile Wireframe Thank You Page]()
+Index Page:
+
+<img src="docs/wireframe/index-page-smartphone.png" width="40%" alt="Mobile Index Wireframe">
+
+Courses Page:
+
+<img src="docs/wireframe/courses-smartphone.png" width="40%" alt="Mobile Courses Wireframe">
+
+About Us Page:
+
+<img src="docs/wireframe/about-us-smartphoone.png" width="40%" alt="Mobile About Us Wireframe">
+
+Get Connected Page:
+
+<img src="docs/wireframe/get-connected-smartphone.png" width="40%" alt="Mobile Get Connected Wireframe">
+
+Thank You Page:
+
+<img src="" width="40%" alt="Mobile Thank You Wireframe">
+
  </details>
 
 ## FINAL DESIGN
@@ -109,20 +142,54 @@ On large sreens the feedback text, instead of being under the images of the feed
 On the Sign-Form of the get connected page when hovering over the "sign up" button the buttons font-color and background color will switch. Thus the font-color will be white and the background color a dark brown. The cursor itself will be a shown as a cursor when hovering the element. This is done to on the one hand make it stand out and on the other signal to the user that it can be clicked.
 
 ### Final Look
- <details>
+ <details >
 <summary>Desktop</summary>
 
-![Desktop Final Look]()
+Index Page:
+
+<img src="docs/final-look/final-look-index-desktop.html.png" width="70%" alt="Desktop Index Page">
+
+Courses Page:
+
+<img src="docs/final-look/final-look-courses-desktop.html.png" width="70%" alt="Desktop Courses Page">
+
+About Us Page:
+
+<img src="docs/final-look/final-look-about-us-desktop.html.png" width="70%" alt="Desktop About Us Page">
+
+Get Connected Page:
+
+<img src="docs/final-look/final-look-get-connected-desktop.html.png" width="70%" alt="Desktop Get Connected Page">
+
+Thank You Page:
+
+<img src="docs/final-look/final-look-thank-you-desktop.html.png" width="70%" alt="Desktop Thank You Page">
+
  </details>
 
  <details>
     <summary>Mobile</summary>
 
-![Mobile Index Page]()
-![Mobile Courses Page]()
-![Mobile About Us Page]()
-![Mobile  Get Connected Page]()
-![Mobile  Thank You Page]()
+Index Page:
+
+<img src="docs/final-look/final-look-index-mobile.html.png" width="40%" alt="Mobile Index Page">
+
+Courses Page:
+
+<img src="docs/final-look/final-look-courses-mobile.html.png" width="40%" alt="Mobile Courses Page">
+
+About Us Page:
+
+<img src="docs/final-look/final-look-about-us-mobile.html.png" width="40%" alt="Mobile About Us Page">
+
+Get Connected Page:
+
+<img src="docs/final-look/final-look-get-connected-mobile.html.png" width="40%" alt="Mobile Get Connected Page">
+
+Thank You Page:
+
+<img src="docs/final-look/final-look-thank-you-mobile.html.png" width="40%" alt="Mobile Thank You Page">
+
  </details>
 
 

@@ -20,6 +20,26 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 ## USER STORIES
 ## DESIGN
 ## WIREFRAMES
+Wireframes were produced using Balsamiq. 
+
+ <details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe]()
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe Index Page](docs/wireframe/index-page-smartphone.png)
+![Mobile Wireframe Courses Page](docs/wireframe/courses-smartphone.png)
+![Mobile Wireframe About Us Page](docs/wireframe/about-us-smartphoone.png)
+![Mobile Wireframe Get Connected Page](docs/wireframe/get-connected-smartphone.png)
+ </details>
+
+
+
 ## FEAUTURES
 ## TESTING
 

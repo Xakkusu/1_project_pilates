@@ -48,7 +48,7 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 ## USER EXPERIENCE (UX)
 ### User Stories
 #### First Time User Goals
-- I want the website to be easy to understand the main purpose of the website
+- I want the main purpose of the website to be easy to understand
 - I want the website to be easy to navigate
 - I want to know about services/classes being offered
 - I want to know the cost of courses
@@ -127,7 +127,7 @@ All images on the webpage were taken from pexels.com. I have credited these in t
 
 ### Color Scheme
 ![Pipalates Color Palette](docs/readme-images/colorscheme.png)
-I chose brown-redish and beige colours for a relaxed feeling but at the same time a sense of strength. Brown colors are often used in pilates sutdio designs as well as in pilates' clothing and accessoires therefore these colors were chosen as they are already established within the community.
+I chose brown-redish and beige colors for a relaxed feeling but at the same time a sense of strength. Brown colors are often used in pilates sutdio designs as well as in pilates' clothing and accessoires therefore these colors were chosen as they are already established within the community.
 The color palette was created by using the [coolors](https://coolors.co/) website.
 
 ### Typography
@@ -146,7 +146,7 @@ The Get Connected Form, the content of the schedule-table, images of trainers an
 #### Navbar Hover Effect
 On large screen when choosing a menu-section a hover-effect will appear on the topic on which the cursor is "on top off". The font-color will turn white while the background will appear in a darker brown color to make it stand out.
 #### Hover over images
-On large sreens the feedback text, instead of being under the images of the feedback section it will be shown on top of images while hovering over them. The font-colour will turn white and the background color brown-redish to make it stand out.
+On large sreens the feedback text, instead of being under the images of the feedback section it will be shown on top of images while hovering over them. The font-color will turn white and the background color brown-redish to make it stand out.
 #### Button
 On the Sign-Form of the get connected page when hovering over the "sign up" button the buttons font-color and background color will switch. Thus the font-color will be white and the background color a dark brown. The cursor itself will be a shown as a cursor when hovering the element. This is done to on the one hand make it stand out and on the other signal to the user that it can be clicked.
 
@@ -265,7 +265,7 @@ All pages have the following in common:
 <img src="docs/features/schedule-table-feature.html.png" alt="a time table that shows when which course will take place during the week" width="90%">
 
 - This section informs the user about the times of courses via a table.
-- For easier understanding the same courses are coloured according to their level.
+- For easier understanding the same courses are colored according to their level.
 
 <img src="docs/features/schedule-table-mobile-feature.html.png" alt="schedule table on mobile device" width="40%">
 
@@ -286,9 +286,22 @@ All pages have the following in common:
 
 <img src="docs/features/feedback-mobile-feature.html.png" alt="images and feedback text" width="40%">
 
-- On smaller screens the feedback text is located below each picture so it is still readable and easy to understand in the websites colours.
+- On smaller screens the feedback text is located below each picture so it is still readable and easy to understand in the websites colors.
 
 ### About Us Page
+#### Get To Know Us Section
+
+<img src="docs/features/team-feature.html.png" alt="four images of trainers with short description below them" width="90%">
+
+- This section presents the trainers to the user as well as who is in charge of the studio. Through this and the information given about the trainers a few informational needs of the users are already answered.
+- The section is responsive to screen size and will adapt accordingly.
+
+#### Our Studio Section
+<img src="docs/features/studio-feature.html.png" alt="images of the studio ordered in two columns" width="90%">
+
+- This section incorporates 7 images of the studio from different angles and some with people training on the equipment. This gives the user a better visual presentation about the studio and if it is according to their needs. 
+- The section is responsive to screen size and will adapt width and number of columns accordingly. The images all are chosen to not deviate from the color scheme and give an inviting impression to the user.
+
 
 ### Get Connected Page
 

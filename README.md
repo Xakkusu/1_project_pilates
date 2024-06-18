@@ -234,14 +234,14 @@ All pages have the following in common:
 
 ### Index Page
 #### Hero Image
-<img src="docs/features/hero-image-feature.html.png" alt="hero image of a pilates studio" width="80%">
+<img src="docs/features/hero-image-feature.html.png" alt="hero image of a pilates studio" width="90%">
 
 - The visually pleasing image is of a pilates studio with reformers lined up behind one another.
 - The semit-transparent cover text informs the user about the main topic of the website while being in line with the overall color scheme of the website.
 - The image is responsive and the cover text switches to the left side on smaller screen to not be on top of the reformer. This way the main message of the website is still transferred to the user
 
 #### Best Courses Section
-<img src="docs/features/course-section-feature.html.png" alt="a course section with short description of the course as well as one image per course" width="80%">
+<img src="docs/features/course-section-feature.html.png" alt="a course section with short description of the course as well as one image per course" width="90%">
 
 - This section is subdivided into 4 parts for each corse: a short description for the user of the course as well as a fitting picture of something similar to the course so the user gets a visual represantation of the course as well
 - On larger screens when hovering over a course-image-box the box will have a dark border, a darker brownish background color and the fint-color will be white.
@@ -250,20 +250,43 @@ All pages have the following in common:
 - This section shows the user the main service the studio offers, the courses. Through visual effects and the linked parts the user could directly transfer to the section about the courses with further information about the courses.
 
 #### Why Pilates Section
-<img src="docs/features/why-pilates-feature.html.png" alt="a brief text section of what pilates is" width="80%">
+<img src="docs/features/why-pilates-feature.html.png" alt="a brief text section of what pilates is" width="90%">
 
 - This section gives a brief description of what pilates is and highlights its benefits to the user. 
 
 #### Location Section
-<img src="docs/features/location-feature.html.png" alt="a section with text about contact information and a google maps image of the street from birds eye view" width="80%">
+<img src="docs/features/location-feature.html.png" alt="a section with text about contact information and a google maps image of the street from birds eye view" width="90%">
 
 - This section includes a block of different kinds of contact information and an iframe of an embedded Google Map shwoing the studio's location.
 - This will enable the user to have various contact points with the studio in case of questions as well as knowing the direct location of the studio in case they will attend classes.
 
 ### Courses Page
+#### Schedule Table Section
+<img src="docs/features/schedule-table-feature.html.png" alt="a time table that shows when which course will take place during the week" width="90%">
+
+- This section informs the user about the times of courses via a table.
+- For easier understanding the same courses are coloured according to their level.
+
+<img src="docs/features/schedule-table-mobile-feature.html.png" alt="schedule table on mobile device" width="40%">
+
+- For mobile device user the full table can be accessed with a horizontal scrollbar. Through this no data is neglected by smaller sizing and it does not disrupt the reading flow of the user.
+- The naming of each course with its course level in numeric letters is used as this is common practice to name courses in the pilates, yoga and aerial sports industry so useres are often already familiar with this wording
+
+#### Course Prices Section
+<img src="docs/features/price-courses-feature.html.png" alt="four course-price-boxes next to on another" width="90%">
+
+- This section is held as simple and basic as possible, as it has to do with product/service information and the easier it is for the user to understand these the more likely they will be to chose one.
+- Each course-price-box consists out of information about the course, units and its price. The boxes are responsive and are placed horizontally beneath one another on smaller devices.
 
 #### Feedback Section
-- will give confidence to the user in the studio's abilities
+<img src="docs/features/feedback-feature.html.png" alt="four pilates images with one having a feedback-text-box in front of it" width="90%">
+
+- This section gives the user the option to read feeback of from customers about the courses. This is dpme to give confidence to the user in the studio's abilities.
+- On larger screens there is a hover effect on top of each picture. The feedback text will appear when hovering the picture.
+
+<img src="docs/features/feedback-mobile-feature.html.png" alt="images and feedback text" width="40%">
+
+- On smaller screens the feedback text is located below each picture so it is still readable and easy to understand in the websites colours.
 
 ### About Us Page
 

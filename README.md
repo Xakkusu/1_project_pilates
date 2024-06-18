@@ -28,7 +28,6 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
     - [Courses Page](#courses-page)
     - [About Us Page](#about-us-page)
     - [Get Connected Page](#get-connected-page)
-    - [How to Use](#how-to-use)
 - [TESTING](#testing)
     - [Fixed Bugs](#fixed-bugs)
 - [TECHNOLOGIES USED](#technologies-used)
@@ -318,9 +317,6 @@ All pages have the following in common:
 
 - After selecting the sign-up button the user will be transferred to a thank you page to indicate that the sign-up process was successfull.
 
-
-
-### How to Use
 
 ## TESTING
 form testing

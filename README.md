@@ -76,23 +76,23 @@ Wireframes were produced using Balsamiq.
  <summary>Desktop Wireframe</summary>
 Index Page:
 
-<img src="" width="90%" alt="Desktop Index Wireframe">
+<img src="docs/wireframe/index-desktop.png" width="90%" alt="Desktop Index Wireframe">
 
 Courses Page:
 
-<img src="" width="90%" alt="Desktop Courses Wireframe">
+<img src="docs/wireframe/courses-desktop.png" width="90%" alt="Desktop Courses Wireframe">
 
 About Us Page:
 
-<img src="" width="90%" alt="Desktop About Us Wireframe">
+<img src="docs/wireframe/about-us-desktop.png" width="90%" alt="Desktop About Us Wireframe">
 
 Get Connected Page:
 
-<img src="" width="90%" alt="Desktop Get Connected Wireframe">
+<img src="docs/wireframe/get-connected-desktop.png" width="90%" alt="Desktop Get Connected Wireframe">
 
 Thank You Page:
 
-<img src="" width="90%" alt="Desktop Thank You Wireframe">
+<img src="docs/wireframe/thank-you-desktop.png" width="90%" alt="Desktop Thank You Wireframe">
 
  </details>
 
@@ -105,19 +105,19 @@ Index Page:
 
 Courses Page:
 
-<img src="docs/wireframe/courses-smartphone.png" width="50%" alt="Mobile Courses Wireframe">
+<img src="docs/wireframe/courses.png" width="50%" alt="Mobile Courses Wireframe">
 
 About Us Page:
 
-<img src="docs/wireframe/about-us-smartphoone.png" width="50%" alt="Mobile About Us Wireframe">
+<img src="docs/wireframe/about-us.png" width="50%" alt="Mobile About Us Wireframe">
 
 Get Connected Page:
 
-<img src="docs/wireframe/get-connected-smartphone.png" width="50%" alt="Mobile Get Connected Wireframe">
+<img src="docs/wireframe/get-connected.png" width="50%" alt="Mobile Get Connected Wireframe">
 
 Thank You Page:
 
-<img src="" width="50%" alt="Mobile Thank You Wireframe">
+<img src="docs/wireframe/thank-you.png" width="50%" alt="Mobile Thank You Wireframe">
 
  </details>
 
@@ -211,7 +211,7 @@ All pages have the following in common:
 
 <img src="docs/features/navbar-feature.html.png" alt="navbar in browser">
 
-- The navbar includes the Logo and the menu. The menu consists of Home, Courses, About Us, Get Connected pages.
+- The navbar includes the Logo and the menu. The menu consists of Home, Courses, About Us, Get Connected pages, these items are located on the right.
 - The navbar is fixed at the top so that it stays visible while scrolling the page, hence the user is able to navigate themselves from page to page whener they please.
 - When selecting a menu item the selected page will open in the same window.
 - When selecting the logo to index page will open.
@@ -233,8 +233,37 @@ All pages have the following in common:
 
 
 ### Index Page
+#### Hero Image
+<img src="docs/features/hero-image-feature.html.png" alt="hero image of a pilates studio" width="80%">
+
+- The visually pleasing image is of a pilates studio with reformers lined up behind one another.
+- The semit-transparent cover text informs the user about the main topic of the website while being in line with the overall color scheme of the website.
+- The image is responsive and the cover text switches to the left side on smaller screen to not be on top of the reformer. This way the main message of the website is still transferred to the user
+
+#### Best Courses Section
+<img src="docs/features/course-section-feature.html.png" alt="a course section with short description of the course as well as one image per course" width="80%">
+
+- This section is subdivided into 4 parts for each corse: a short description for the user of the course as well as a fitting picture of something similar to the course so the user gets a visual represantation of the course as well
+- On larger screens when hovering over a course-image-box the box will have a dark border, a darker brownish background color and the fint-color will be white.
+- Each course-image-box can be selected and will open a new tab to the course page to the according course that has been clicked.
+- On smaller screens the images and text are ordered under one another and is hence responsive to different devices.
+- This section shows the user the main service the studio offers, the courses. Through visual effects and the linked parts the user could directly transfer to the section about the courses with further information about the courses.
+
+#### Why Pilates Section
+<img src="docs/features/why-pilates-feature.html.png" alt="a brief text section of what pilates is" width="80%">
+
+- This section gives a brief description of what pilates is and highlights its benefits to the user. 
+
+#### Location Section
+<img src="docs/features/location-feature.html.png" alt="a section with text about contact information and a google maps image of the street from birds eye view" width="80%">
+
+- This section includes a block of different kinds of contact information and an iframe of an embedded Google Map shwoing the studio's location.
+- This will enable the user to have various contact points with the studio in case of questions as well as knowing the direct location of the studio in case they will attend classes.
 
 ### Courses Page
+
+#### Feedback Section
+- will give confidence to the user in the studio's abilities
 
 ### About Us Page
 

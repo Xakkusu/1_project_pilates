@@ -319,11 +319,31 @@ All pages have the following in common:
 
 
 ## TESTING
-form testing
-amiresponsive 
-responsinator
+### Accessibility
 lighthouse
 waves
+
+### W3C Validators
+HTML
+CSS
+
+### Responsiveness
+
+### Form Testing
+
+
+### Links Testing
+
+
+### Browser Testing
+
+### Device Testing
+
+
+### Testing User Stories
+amiresponsive 
+responsinator
+
 
 ### FIXED BUGS
 1. header and navbar were styled incorrectly so that the header fully covered navbar/menu when its position is fixed:
@@ -341,6 +361,28 @@ waves
     - content were well fitted to screen size again
 
 ## TECHNOLOGIES USED
+### Languages
+- HTML
+- CSS
+
+### Frameworks, Libraries and Programs used
+- [Balsamiq](https://balsamiq.com/wireframes/)- Used to create wireframes.
+- [GitHub](https://GitHub.com/) - Used for version control and hosting.
+- [Gitpod](https://gitpod.io/) - IDE to develop website.
+- [Google Fonts](https://fonts.google.com/) - Used to import  fonts used on wesbite.
+- [FontAwesome](https://fontawesome.com/) - Used for footer's and navbar's icon.
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- Used for troubleshooting, debugging, inspecting page's elements, testing responsiveness and styling elements.
+- [pexels](https://www.pexels.com/) - Used for free images.
+- [Favicon.cc](https://www.favicon.cc/) - Used for website's favicon.
+- [Coolors](https://coolors.co/) - Used to create color palette.
+- [Google Chrome's Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used to test preformance and accesibility.
+- [Wave](https://wave.webaim.org/) Used to test accesibility.
+- [W3C HTML Markup Validator](https://validator.w3.org/) Used to validate HTML code.
+- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) Used to validate CSS code.
+- [Am I Responsive](https://ui.dev/amiresponsive) Used to test responsiveness.
+- [Responsinator](http://www.responsinator.com/) Used to verify responsiveness especially usage for mobile devices.
+
+- Code Institute's Gitpod Template to generate IDE workspace.
 
 ## DEPLOYMENT
 The steps to deploy this project using GitHub pages were the following:
@@ -357,3 +399,24 @@ The steps to deploy this project using GitHub pages were the following:
 The live link can be found here - [Pipalates](https://xakkusu.github.io/1_project_pilates/index.html)
 
 ## CREDITS
+### Media
+
+### Content Inspiration
+- [pilatesboutiquevienna](https://pilatesboutiquevienna.at/)
+- [diederStudio](https://diederstudio.at/)
+- [pystudio](https://www.pystudio.at/)
+
+### Resources
+- Tutorials from Code Institute's lessons that we learned in the course of our diploma-education used to create a basic structure of the website. Especially topics from the Love Running project were helpful.
+
+- [Stack Overflow](https://stackoverflow.co/)
+
+- [MDN](https://developer.mozilla.org/en-US/)
+
+- [W3Schools](https://www.w3schools.com/)
+
+- [ChatGPT](https://openai.com/chatgpt/) for comming up with reviews from customers
+
+- Readm.md file was created based on the structure of [AliOkeeffe](https://github.com/AliOKeeffe/mindyoga?tab=readme-ov-file) and [emilycheatham](https://github.com/emilycheatham/p1_yoga_for_you/blob/main/README.md).
+
+- Code Institute's Slack community already answered questions that I had, when I got stuck.

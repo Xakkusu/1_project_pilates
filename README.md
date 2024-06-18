@@ -28,7 +28,6 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
     - [Courses Page](#courses-page)
     - [About Us Page](#about-us-page)
     - [Get Connected Page](#get-connected-page)
-    - [Thank You Page](#thank-you-page)
     - [How to Use](#how-to-use)
 - [TESTING](#testing)
     - [Fixed Bugs](#fixed-bugs)
@@ -253,12 +252,14 @@ All pages have the following in common:
 <img src="docs/features/why-pilates-feature.html.png" alt="a brief text section of what pilates is" width="90%">
 
 - This section gives a brief description of what pilates is and highlights its benefits to the user. 
+- The section is responsive to screen size and will adapt accordingly.
 
 #### Location Section
 <img src="docs/features/location-feature.html.png" alt="a section with text about contact information and a google maps image of the street from birds eye view" width="90%">
 
 - This section includes a block of different kinds of contact information and an iframe of an embedded Google Map shwoing the studio's location.
 - This will enable the user to have various contact points with the studio in case of questions as well as knowing the direct location of the studio in case they will attend classes.
+- The section is responsive to screen size and will adapt accordingly.
 
 ### Courses Page
 #### Schedule Table Section
@@ -270,7 +271,7 @@ All pages have the following in common:
 <img src="docs/features/schedule-table-mobile-feature.html.png" alt="schedule table on mobile device" width="40%">
 
 - For mobile device user the full table can be accessed with a horizontal scrollbar. Through this no data is neglected by smaller sizing and it does not disrupt the reading flow of the user.
-- The naming of each course with its course level in numeric letters is used as this is common practice to name courses in the pilates, yoga and aerial sports industry so useres are often already familiar with this wording
+- The naming of each course with its course level in numeric letters is used as this is common practice to name courses in the pilates, yoga and aerial sports industry so useres are often already familiar with this wording.
 
 #### Course Prices Section
 <img src="docs/features/price-courses-feature.html.png" alt="four course-price-boxes next to on another" width="90%">
@@ -304,8 +305,20 @@ All pages have the following in common:
 
 
 ### Get Connected Page
+#### Get Connected Section
+<img src="docs/features/get-connected-feature.html.png" alt="get connected form to sign up for a newsletter with field for contact information of the user" width="90%">
 
-### Thank You Page
+- This section invites the user to receive newsletter from the pipalates studio after entering all necessary contact information of the user. Necessary user information: frist name, last name, e-mail address and ability level. All other input elements are voluntary.
+- When selecting the input elements to write in the border will switch to a brown color to indicate tot he user which element is selected.
+- The sign-up button will change to a darker color with bright font-color and whill change the cursor to a pointer so it is made easier for the user to find the element to submit his data with.
+<img src="docs/features/get-connected-button-feature.html.png" alt="sign up button with different coloring" width="40%">
+
+- The section is responsive to screen size and will adapt accordingly.
+<img src="docs/features/thank-you-feature.html.png" alt="thank you message" width="90%">
+
+- After selecting the sign-up button the user will be transferred to a thank you page to indicate that the sign-up process was successfull.
+
+
 
 ### How to Use
 

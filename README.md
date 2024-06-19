@@ -346,19 +346,22 @@ responsinator
 
 
 ### FIXED BUGS
-1. header and navbar were styled incorrectly so that the header fully covered navbar/menu when its position is fixed:
+1. Header and navbar were styled incorrectly so that the header fully covered navbar/menu when its position is fixed:
     - added top margin in main element which is the same as the height of header
     - added high z-index (99) so that the menu will stay on top of the layout when scrolling
     Now menu didn't fit screen and positioning was off:
     - added absolute position in navbar so that its position stay relative to the header and is taken out of the normal flow
     - menu items were placed directly under header with top:100% and placed left:0
-2.  table wasn't wholy visible on smaller screens
+2.  Table wasn't wholy visible on smaller screens
     - the table for weekdays was horizontally too large for mobile devices but adding the days below one another would have taken too much space and could be confusing for user to compare days and time
     - added overvlow-x:auto to tabble element to add a horizontal scroll bar for table content which was too big for its block level element; user can however always rotate their phone which would show it wholy either way
 3. From 992px and upwards the size of the index-page was dislocated from the size of the screen, which after some testing was found out to have come from the Why Pilates?-section on that page
     - width of why-pilates and of best-courses section were to wide, especially the may width with no min width attribute in the why pilates section
     - added min width attribute which is smaller than starting screen size of this media query and giving it a new max width attribute, same with the best-course section
     - content were well fitted to screen size again
+4. On index page all course boxes were meant to link to the according course box on the courses page. However when opening the link on mobile devices the link would open up with a delayed jump to the box on courses page, yet only showing part of the element not the whole element:
+    - got rid of the singular links for each course
+    - on index page put the whole element in an anchor element which again links now thourgh the href attribute to the whole price section (includes course boxes) one the courses page
 
 ## TECHNOLOGIES USED
 ### Languages

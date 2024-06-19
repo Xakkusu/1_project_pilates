@@ -1,7 +1,7 @@
 # Pipalates
-Pipialtes is a static website that offers a pilates studio an online platform. The Pipalates studio itself offers pilates courses which are meant to improve the customers wellbeing. Through this webistes the user is informed about those services,a bout the studio and pilates over all. This webiste is hence meant to have a userbase made up of already existing customers as well as people that are interested in pialtes and reformer class in Vienna, Austria.
+Pipialtes is a static website that offers a pilates studio an online platform. The Pipalates studio itself offers pilates courses which are meant to improve the customers wellbeing. Through this website the user is informed about those services, about the studio and pilates over all. This website is hence meant to have a userbase made up of already existing customers as well as people that are interested in pilates and reformer class in Vienna, Austria.
 
-Pipalates' website includes basic pilates informations, information abut what courses exist and at what time those take place. Moreover, the website gives the user information about previous experience of customer via their feedback section. The location as well as more studio and team information is given to the user. If the user wants to stay up-to-date with information from the studio he or she can subscribe to a newsletter.
+Pipalates' website includes basic pilates information, information about what courses exist and at what time those take place. Moreover, the website gives the user information about previous customer experience via their feedback section. The location as well as more studio and team information is given to the user. If the user wants to stay up-to-date with information from the studio he or she can subscribe to a newsletter.
 
 The live link can be found here - [Pipalates](https://xakkusu.github.io/1_project_pilates/index.html)
 
@@ -18,10 +18,6 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
     - [Color Scheme](#color-scheme)
     - [Typography](#typography)
     - [Visual Effects](#visual-effects)
-        - [Shadows](#shadows)
-        - [Navbar Hover Effect](#navbar-hover-effect)
-        - [Hover over images](#hover-over-images)
-        - [Buttons](#button)
     - [Final Look](#final-look)
 - [FEATURES](#feautures)
     - [Index Page](#index-page)
@@ -29,10 +25,21 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
     - [About Us Page](#about-us-page)
     - [Get Connected Page](#get-connected-page)
 - [TESTING](#testing)
+    - [Accessibility](#accessibility)
+    - [W3C Validators](#w3c-validators)
+    - [Form Testing](#form-testing)
+    - [Links Testing](#links-testing)
+    - [Browser Testing](#browser-testing)
+    - [Device Testing](#device-testing)
+    - [Testing User Stories](#testing-user-stories)
     - [Fixed Bugs](#fixed-bugs)
 - [TECHNOLOGIES USED](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks, Libraries and Programs used](#frameworks-libraries-and-programs-used)
 - [DEPLOYMENT](#deployment)
 - [CREDITS](#credits)
+    - [Media](#media)
+    - [Resources](#resources)
 
 ## SITE OWNER GOALS
 - to provide the user with information that there is a pipalates studio in Vienna and motivate them to engage with it
@@ -113,32 +120,32 @@ Get Connected Page:
 
 ## FINAL DESIGN
 ### Imagery
-All images on the webpage were taken from pexels.com. I have credited these in the [credits](#credits) section. All images on this website are free stock photos which are royalty free. The images were selected as they showed pilates, a pilates studio and people in an aesthetically pleasing way. Especially the studio images were chosen in line with the color theme used for this website using brownish earthly colors. Hence these colors correlate as good as possible with a relaxed but yet strong overall theme of the website and pilates itself.
+All images on the webpage were taken from pexels.com. I have credited these in the [credits](#credits) section. All images on this website are free stock photos which are royalty free. The images were selected as they showed pilates, a pilates studio and people in an aesthetically pleasing way. The studio images were especially chosen in line with the color theme used for this website using brownish earthly colors. Hence these colors correlate as good as possible with a relaxed but yet strong overall theme of the website and pilates itself.
 
 ### Color Scheme
 ![Pipalates Color Palette](docs/readme-images/colorscheme.png)
-I chose brown-redish and beige colors for a relaxed feeling but at the same time a sense of strength. Brown colors are often used in pilates sutdio designs as well as in pilates' clothing and accessoires therefore these colors were chosen as they are already established within the community.
+Brown-redish and beige colors were chosen for a relaxed feeling but at the same time a sense of strength. Brown colors are often used in pilates studio designs as well as in pilates' clothing and accessories therefore these colors were chosen as they are already established within the community.
 The color palette was created by using the [coolors](https://coolors.co/) website.
 
 ### Typography
 [Google Fonts](https://fonts.google.com/) was used for the following fonts:
 - ![Montserrat font image](docs/readme-images/montserrat.PNG) 
-[Montserrat](https://fonts.google.com/specimen/Montserrat) was was chosen for the main body as it was neutral and easy to read.
+[Montserrat](https://fonts.google.com/specimen/Montserrat) was chosen for the main body as it was neutral and easy to read.
 - ![Raleway font image](docs/readme-images/raleway.PNG) 
-For the final H1 Heading [Raleway](https://fonts.google.com/specimen/Raleway) was used to lift the website's name/Logo apart from the other text, but not too much to keep in line of the general visual outlook of the page.
+For the final H1 Heading [Raleway](https://fonts.google.com/specimen/Raleway) was used to lift the website's name/Logo apart from the other text, but not too much to keep in line with the general visual outlook of the page.
 - Sans Serif was chosen as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
 ### Visual Effects
 Images and more information for these effects are given in the [Features](#feautures) part.
 #### Shadows
-The navbar/header-element has on the movie device as well as on all other screen sizes a box-shadow as it is fixed at the top of the screen while scrolling. Thrugh this it sets itself apart from the other content, hinders blending with said content and serves as a visual-anchor-point for users.
-The Get Connected Form, the content of the schedule-table, images of trainers and feedback elements all have shadows as well to lift themseves up from the other content.
+The navbar/header-element has on the movie device as well as on all other screen sizes a box-shadow as it is fixed at the top of the screen while scrolling. Through this it sets itself apart from the other content, hinders blending with said content and serves as a visual-anchor-point for users.
+The Get Connected Form, the content of the schedule-table, images of trainers and feedback elements all have shadows as well to lift themselves up from the other content.
 #### Navbar Hover Effect
-On large screen when choosing a menu-section a hover-effect will appear on the topic on which the cursor is "on top off". The font-color will turn white while the background will appear in a darker brown color to make it stand out.
+On larger screens when choosing a menu-section a hover-effect will appear on the topic on which the cursor is "on top off". The font-color will turn white while the background will appear in a darker brown color to make it stand out.
 #### Hover over images
-On large sreens the feedback text, instead of being under the images of the feedback section it will be shown on top of images while hovering over them. The font-color will turn white and the background color brown-redish to make it stand out.
+On large screens the feedback text, instead of being under the images of the feedback section it will be shown on top of images while hovering over them. The font-color will turn white and the background color brown-reddish to make it stand out.
 #### Button
-On the Sign-Form of the get connected page when hovering over the "sign up" button the buttons font-color and background color will switch. Thus the font-color will be white and the background color a dark brown. The cursor itself will be a shown as a cursor when hovering the element. This is done to on the one hand make it stand out and on the other signal to the user that it can be clicked.
+On the Sign-Form of the get connected page when hovering over the "sign up" button the buttons font-color and background color will switch. Thus the font-color will be white and the background color a dark brown. The cursor itself will be shown as a cursor when hovering the element. This is done to on the one hand make it stand out and on the other signal to the user that it can be clicked.
 
 ### Final Look
  <details >
@@ -184,7 +191,7 @@ Get Connected Page:
  </details>
 
 
-## FEAUTURES
+## FEATURES
 All pages have the following in common:
 #### Favicon
 <img src="docs/features/favicon-feature.PNG" alt="favicon in browser tab">
@@ -194,11 +201,11 @@ All pages have the following in common:
 <img src="docs/features/navbar-feature.html.png" alt="navbar in browser">
 
 - The navbar includes the Logo and the menu. The menu consists of Home, Courses, About Us, Get Connected pages, these items are located on the right.
-- The navbar is fixed at the top so that it stays visible while scrolling the page, hence the user is able to navigate themselves from page to page whener they please.
+- The navbar is fixed at the top so that it stays visible while scrolling the page, hence the user is able to navigate themselves from page to page whenever they please.
 - When selecting a menu item the selected page will open in the same window.
-- When selecting the logo to index page will open.
+- When selecting the logo the index page will open.
 
-<img src="docs/features/navbar-selected-feature.html.png" alt="hovered mentu item in  browser">
+<img src="docs/features/navbar-selected-feature.html.png" alt="hovered menu item in  browser">
 
 - When hovering the menu items the background color of the hovered item will change to a darker brown and its font-color will change to white.
 - While being on a page the navbar menu item that belongs to the open page is shown with an underline.
@@ -219,16 +226,16 @@ All pages have the following in common:
 <img src="docs/features/hero-image-feature.html.png" alt="hero image of a pilates studio" width="90%">
 
 - The visually pleasing image is of a pilates studio with reformers lined up behind one another.
-- The semit-transparent cover text informs the user about the main topic of the website while being in line with the overall color scheme of the website.
-- The image is responsive and the cover text switches to the left side on smaller screen to not be on top of the reformer. This way the main message of the website is still transferred to the user
+- The semi-transparent cover text informs the user about the main topic of the website while being in line with the overall color scheme of the website.
+- The image is responsive and the cover text switches to the left side on smaller screens to not be on top of the reformer. This way the main message of the website is still transferred to the user
 
 #### Best Courses Section
 <img src="docs/features/course-section-feature.html.png" alt="a course section with short description of the course as well as one image per course" width="90%">
 
-- This section is subdivided into 4 parts for each corse: a short description for the user of the course as well as a fitting picture of something similar to the course so the user gets a visual represantation of the course as well
-- On larger screens when hovering over a course-image-box the box will have a dark border, a darker brownish background color and the fint-color will be white.
+- This section is subdivided into 4 parts for each course: a short description for the user of the course as well as a fitting picture of something similar to the course so the user gets a visual representation of the course as well
+- On larger screens when hovering over a course-image-box the box will have a dark border, a darker brownish background color and the font-color will be white.
 - Each course-image-box can be selected and will open a new tab to the course page to the according course that has been clicked.
-- On smaller screens the images and text are ordered under one another and is hence responsive to different devices.
+- On smaller screens the images and text are ordered under one another and are hence responsive to different devices.
 - This section shows the user the main service the studio offers, the courses. Through visual effects and the linked parts the user could directly transfer to the section about the courses with further information about the courses.
 
 #### Why Pilates Section
@@ -240,7 +247,7 @@ All pages have the following in common:
 #### Location Section
 <img src="docs/features/location-feature.html.png" alt="a section with text about contact information and a google maps image of the street from birds eye view" width="90%">
 
-- This section includes a block of different kinds of contact information and an iframe of an embedded Google Map shwoing the studio's location.
+- This section includes a block of different kinds of contact information and an iframe of an embedded Google Map showing the studio's location.
 - This will enable the user to have various contact points with the studio in case of questions as well as knowing the direct location of the studio in case they will attend classes.
 - The section is responsive to screen size and will adapt accordingly.
 
@@ -254,23 +261,23 @@ All pages have the following in common:
 <img src="docs/features/schedule-table-mobile-feature.html.png" alt="schedule table on mobile device" width="40%">
 
 - For mobile device user the full table can be accessed with a horizontal scrollbar. Through this no data is neglected by smaller sizing and it does not disrupt the reading flow of the user.
-- The naming of each course with its course level in numeric letters is used as this is common practice to name courses in the pilates, yoga and aerial sports industry so useres are often already familiar with this wording.
+- The naming of each course with its course level in numeric letters is used as this is common practice to name courses in the pilates, yoga and aerial sports industry so users are often already familiar with this wording.
 
 #### Course Prices Section
 <img src="docs/features/price-courses-feature.html.png" alt="four course-price-boxes next to on another" width="90%">
 
-- This section is held as simple and basic as possible, as it has to do with product/service information and the easier it is for the user to understand these the more likely they will be to chose one.
-- Each course-price-box consists out of information about the course, units and its price. The boxes are responsive and are placed horizontally beneath one another on smaller devices.
+- This section is held as simple and basic as possible, as it has to do with product/service information and the easier it is for the user to understand these the more likely they will be to choose one.
+- Each course-price-box consists of information about the course, units and its price. The boxes are responsive and are placed horizontally beneath one another on smaller devices.
 
 #### Feedback Section
 <img src="docs/features/feedback-feature.html.png" alt="four pilates images with one having a feedback-text-box in front of it" width="90%">
 
-- This section gives the user the option to read feeback of from customers about the courses. This is dpme to give confidence to the user in the studio's abilities.
+- This section gives the user the option to read feedback of from customers about the courses. This is done to give confidence to the user in the studio's abilities.
 - On larger screens there is a hover effect on top of each picture. The feedback text will appear when hovering the picture.
 
 <img src="docs/features/feedback-mobile-feature.html.png" alt="images and feedback text" width="40%">
 
-- On smaller screens the feedback text is located below each picture so it is still readable and easy to understand in the websites colors.
+- On smaller screens the feedback text is located below each picture so it is still readable and easy to understand in the website's colors.
 
 ### About Us Page
 #### Get To Know Us Section
@@ -291,25 +298,89 @@ All pages have the following in common:
 #### Get Connected Section
 <img src="docs/features/get-connected-feature.html.png" alt="get connected form to sign up for a newsletter with field for contact information of the user" width="90%">
 
-- This section invites the user to receive newsletter from the pipalates studio after entering all necessary contact information of the user. Necessary user information: frist name, last name, e-mail address and ability level. All other input elements are voluntary.
-- When selecting the input elements to write in the border will switch to a brown color to indicate tot he user which element is selected.
-- The sign-up button will change to a darker color with bright font-color and whill change the cursor to a pointer so it is made easier for the user to find the element to submit his data with.
+- This section invites the user to receive a newsletter from the pipalates studio after entering all necessary contact information of the user. Necessary user information: first name, last name, e-mail address and ability level. All other input elements are voluntary.
+- When selecting the input elements to write in, the border will switch to a brown color to indicate tot he user which element is selected.
+- The sign-up button will change to a darker color with bright font-color and will change the cursor to a pointer so it is made easier for the user to find the element to submit his data with.
 <img src="docs/features/get-connected-button-feature.html.png" alt="sign up button with different coloring" width="40%">
 
 - The section is responsive to screen size and will adapt accordingly.
-- After selecting the sign-up button the user will be transferred to the code institute's official formdump page to indicate that the sign-up process was successfull. The entered data is shown on this page as well.
+- After selecting the sign-up button the user will be transferred to the code institute's official formdump page to indicate that the sign-up process was successful. The entered data is shown on this page as well.
 
 
 ## TESTING
 ### Accessibility
-lighthouse
-waves
+#### Lighthouse Testing
+##### Index Page
+Desktop
+
+<img src="docs/lighthouse/lighthouse-index-desktop.png" alt="Lighthouse rating" width="50%">
+
+Mobile
+
+<img src="docs/lighthouse/lighthouse-index-mobile.png" alt="Lighthouse rating" width="50%">
+
+##### Courses Page
+Desktop
+
+<img src="docs/lighthouse/lighthouse-courses-desktop.png" alt="Lighthouse rating" width="50%">
+
+Mobile
+
+<img src="docs/lighthouse/lighthouse-courses-mobile.png" alt="Lighthouse rating" width="50%">
+
+##### About Us Page
+Desktop
+
+<img src="docs/lighthouse/lighthouse-about-us-desktop.png" alt="Lighthouse rating" width="50%">
+
+Mobile
+
+<img src="docs/lighthouse/lighthouse-about-us-mobile.png" alt="Lighthouse rating" width="50%">
+
+##### Get Connected Page
+Desktop
+
+<img src="docs/lighthouse/lighthouse-get-connected-desktop.png" alt="Lighthouse rating" width="50%">
+
+Mobile
+
+<img src="docs/lighthouse/lighthouse-get-connected-mobile.png" alt="Lighthouse rating" width="50%">
+
+#### Wave Testing
+##### Index Page
+
+<img src="docs/wave/wave-index.png" alt="Lighthouse rating" width="30%">
+
+##### Courses Page
+
+<img src="docs/wave/wave-courses.png" alt="Lighthouse rating" width="30%">
+
+##### About Us Page
+
+<img src="docs/wave/wave-about-us.png" alt="Lighthouse rating" width="30%">
+
+##### Get Connected Page
+
+<img src="docs/wave/wave-get-connected.png" alt="Lighthouse rating" width="30%">
+
 
 ### W3C Validators
-HTML
-CSS
+#### HTML
+No errors were returned for all pages from the W3C Markup Validator:
 
-### Responsiveness
+- [Index Page HTML-validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Findex.html)
+
+- [Courses Page HTML-validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Fcourse.html)
+
+- [About Us Page HTML-validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Fabout-us.html)
+
+- [Get Connected Page HTML-validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Fget-connected.html)
+
+#### CSS
+No errors were returned for the CSS stylesheet from the W3C CSS Validator:
+
+- [Stylesheet CSS-validator results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 ### Form Testing
 
@@ -327,23 +398,24 @@ amiresponsive
 responsinator
 
 
-### FIXED BUGS
+### Fixed Bugs
 1. Header and navbar were styled incorrectly so that the header fully covered navbar/menu when its position is fixed:
     - added top margin in main element which is the same as the height of header
     - added high z-index (99) so that the menu will stay on top of the layout when scrolling
     Now menu didn't fit screen and positioning was off:
     - added absolute position in navbar so that its position stay relative to the header and is taken out of the normal flow
     - menu items were placed directly under header with top:100% and placed left:0
-2.  Table wasn't wholy visible on smaller screens
+2.  Table wasn't wholly visible on smaller screens
     - the table for weekdays was horizontally too large for mobile devices but adding the days below one another would have taken too much space and could be confusing for user to compare days and time
-    - added overvlow-x:auto to tabble element to add a horizontal scroll bar for table content which was too big for its block level element; user can however always rotate their phone which would show it wholy either way
+    - added overvlow-x:auto to table element to add a horizontal scroll bar for table content which was too big for its block level element; user can however always rotate their phone which would show it wholy either way
 3. From 992px and upwards the size of the index-page was dislocated from the size of the screen, which after some testing was found out to have come from the Why Pilates?-section on that page
     - width of why-pilates and of best-courses section were to wide, especially the may width with no min width attribute in the why pilates section
     - added min width attribute which is smaller than starting screen size of this media query and giving it a new max width attribute, same with the best-course section
     - content were well fitted to screen size again
-4. On index page all course boxes were meant to link to the according course box on the courses page. However when opening the link on mobile devices the link would open up with a delayed jump to the box on courses page, yet only showing part of the element not the whole element:
+4. On the index page all course boxes were meant to link to the according course box on the courses page. However when opening the link on mobile devices the link would open up with a delayed jump to the box on courses page, yet only showing part of the element not the whole element:
     - got rid of the singular links for each course
-    - on index page put the whole element in an anchor element which again links now thourgh the href attribute to the whole price section (includes course boxes) one the courses page
+    - on index page put the whole element in an anchor element which again links now through the href attribute to the whole price section (includes course boxes) one the courses page
+
 
 ## TECHNOLOGIES USED
 ### Languages
@@ -353,15 +425,15 @@ responsinator
 ### Frameworks, Libraries and Programs used
 - [Balsamiq](https://balsamiq.com/wireframes/)- Used to create wireframes.
 - [GitHub](https://GitHub.com/) - Used for version control and hosting.
-- [Gitpod](https://gitpod.io/) - IDE to develop website.
-- [Google Fonts](https://fonts.google.com/) - Used to import  fonts used on wesbite.
+- [Gitpod](https://gitpod.io/) - IDE to develop the website.
+- [Google Fonts](https://fonts.google.com/) - Used to import  fonts used on website.
 - [FontAwesome](https://fontawesome.com/) - Used for footer's and navbar's icon.
 - [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- Used for troubleshooting, debugging, inspecting page's elements, testing responsiveness and styling elements.
 - [pexels](https://www.pexels.com/) - Used for free images.
 - [Favicon.cc](https://www.favicon.cc/) - Used for website's favicon.
 - [Coolors](https://coolors.co/) - Used to create color palette.
-- [Google Chrome's Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used to test preformance and accesibility.
-- [Wave](https://wave.webaim.org/) Used to test accesibility.
+- [Google Chrome's Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used to test performance and accessibility.
+- [Wave](https://wave.webaim.org/) Used to test accessibility.
 - [W3C HTML Markup Validator](https://validator.w3.org/) Used to validate HTML code.
 - [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) Used to validate CSS code.
 - [Am I Responsive](https://ui.dev/amiresponsive) Used to test responsiveness.
@@ -382,6 +454,20 @@ The steps to deploy this project using GitHub pages were the following:
 6. Go back to the Code tab. Wait a few minutes for the build to finish and refresh your repository where a Deployments section will show the deployed project.
 
 The live link can be found here - [Pipalates](https://xakkusu.github.io/1_project_pilates/index.html)
+
+How to run the project locally:
+Fork the repository:
+    - Log in (or sign up) to Github.
+    - Go to the repository for: Xakkusu/1_project_pilates.
+    - Click the Fork button in the top right corner.
+
+#### Clone repository:
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for: Xakkusu/1_project_pilates.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+6. A clone of the repository will now be created on your machine.
 
 ## CREDITS
 ### Media

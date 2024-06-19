@@ -693,6 +693,13 @@ footer {
         justify-content: center;
     }
 
+    /* center list more */
+    #ul-why-pilates {
+        padding-left: 3rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
 }
 
 /* Media query: big desktops  (992px and up) */
@@ -757,8 +764,17 @@ footer {
         align-self: center;
         margin: auto;
     }
+
+    /* list itmes to spread out horizontally */
     #ul-why-pilates {
+        margin-top: 20px;
+        margin-bottom: 20px;
         padding-left: 3rem;
+    }
+
+    #ul-why-pilates li {
+        display: inline;
+        padding-right: 20px;
     }
 
     /* change table size */

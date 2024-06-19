@@ -667,6 +667,8 @@ footer {
     .best-course-box{
         max-width:396px;
         margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     #best-reformer-courses,
@@ -683,7 +685,6 @@ footer {
     }
 
     .best-course-text {
-        padding: 0;
         align-items: center;
         width: 100%;
         height: 150px;

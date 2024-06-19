@@ -763,6 +763,7 @@ footer {
         flex-direction: column;
         align-self: center;
         margin: auto;
+        padding-top: 1.5rem;
     }
 
     /* list itmes to spread out horizontally */

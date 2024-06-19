@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- add Meta tags for search engine, description, keyword and author-->
     <meta name="description" content="Pialtes website to book courses and gain more knowledge about a pilates studio">
-    <meta name="keywords" content="pilates, reformer pilates, self-care, sport, pilates course, pilates class, pilates for beginner, pilates studio, Vienna, Austria, exercise">
+    <meta name="keywords"
+        content="pilates, reformer pilates, self-care, sport, pilates course, pilates class, pilates for beginner, pilates studio, Vienna, Austria, exercise">
     <meta name="author" content="N.D.">
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -14,14 +16,18 @@
     <!--Title, for now not final Title yet-->
     <title>Pseudo Title</title>
 </head>
+
 <body>
     <header>
         <!--heading, make it a link-->
-        <a href="index.html"><h1>Pipalates</h1></a>
+        <a href="index.html">
+            <h1>Pipalates</h1>
+        </a>
         <!--menu section-->
         <input type="checkbox" name="menu-mobile-icon" id="menu-mobile-icon">
-        <label for="menu-mobile-icon" class="menu-mobile-icon-label" aria-label="burger menu symbol to click on to show menu"><i class="fa-solid fa-bars"></i></label>
-        <nav >
+        <label for="menu-mobile-icon" class="menu-mobile-icon-label"
+            aria-label="burger menu symbol to click on to show menu"><i class="fa-solid fa-bars"></i></label>
+        <nav>
             <ul id="menu">
                 <li>
                     <a href="index.html">Home</a>
@@ -40,46 +46,52 @@
     </header>
     <main>
         <!-- Get Conected section-->
-         <section id="connected">
+        <section id="connected">
             <!-- Container for Get Connected section -->
-             <div id="container-get-connected">
+            <div id="container-get-connected">
                 <form method="POST" action="https://formdump.codeinstitute.net/" id="get-connected-form">
                     <h2>Get connected</h2>
                     <h3>So you won't miss out on new courses, discounts & outdoor classes</h3>
-                <!-- Input elements for our sign up form, not all are required -->
+                    <!-- Input elements for our sign up form, not all are required -->
                     <div class="connected-form-container">
                         <label for="first-name">First Name: </label>
-                        <input type="text" name="first-name" id="first-name" placeholder="Enter your first name" required class="input-element">
+                        <input type="text" name="first-name" id="first-name" placeholder="Enter your first name"
+                            required class="input-element">
                     </div>
                     <div class="connected-form-container">
                         <label for="last-name">Last Name: </label>
-                        <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required class="input-element">
+                        <input type="text" name="last-name" id="last-name" placeholder="Enter your last name" required
+                            class="input-element">
                     </div>
                     <div class="connected-form-container">
                         <label for="email-address">E-Mail Address:</label>
-                        <input type="email" name="email-address" id="email-address" placeholder="Enter your mail address" required class="input-element">
+                        <input type="email" name="email-address" id="email-address"
+                            placeholder="Enter your mail address" required class="input-element">
                     </div>
                     <div class="connected-form-container">
                         <label for="phone-number">Telephone number:</label>
-                        <input type="tel" name="phone-number" id="phone-number" placeholder="Enter your mobile number" pattern="[0-9]{5,}" title="at least 5 numbers from 0 to 9" class="input-element">
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="Enter your mobile number"
+                            pattern="[0-9]{5,}" title="at least 5 numbers from 0 to 9" class="input-element">
                     </div>
                     <div id="pilates-ability-radio-button" class="connected-form-container input-element">
                         <fieldset>
-                                <legend>Pilates abilities:</legend>
-                                <div id="label-radio-grouped-container">
-                                    <div class="label-radio-grouped">
-                                        <input type="radio" name="pilates-abilities" id="beginner" value="beginner" required checked>
-                                        <label for="beginner">Beginner</label>
-                                    </div>
-                                    <div class="label-radio-grouped">
-                                        <input type="radio" name="pilates-abilities" id="intermediate" value="intermediate" required>
-                                        <label for="intermediate">Intermediate</label>
-                                    </div>
-                                    <div class="label-radio-grouped">
-                                        <input type="radio" name="pilates-abilities" id="pro" value="pro" required>
-                                        <label for="pro">Pro</label>
-                                    </div>
+                            <legend>Pilates abilities:</legend>
+                            <div id="label-radio-grouped-container">
+                                <div class="label-radio-grouped">
+                                    <input type="radio" name="pilates-abilities" id="beginner" value="beginner" required
+                                        checked>
+                                    <label for="beginner">Beginner</label>
                                 </div>
+                                <div class="label-radio-grouped">
+                                    <input type="radio" name="pilates-abilities" id="intermediate" value="intermediate"
+                                        required>
+                                    <label for="intermediate">Intermediate</label>
+                                </div>
+                                <div class="label-radio-grouped">
+                                    <input type="radio" name="pilates-abilities" id="pro" value="pro" required>
+                                    <label for="pro">Pro</label>
+                                </div>
+                            </div>
                         </fieldset>
                     </div>
                     <div id="pilates-interests-checkboxes" class="connected-form-container input-element">
@@ -112,29 +124,33 @@
                     <button type="submit">sign up</button>
                 </form>
             </div>
-         </section>
+        </section>
     </main>
     <!-- Footer -->
     <footer>
         <!-- Social Media Links -->
         <ul id="social-media-links">
             <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="Visit our TikTok page (opens in a new tab)">
+                <a href="https://www.tiktok.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our TikTok page (opens in a new tab)">
                     <i class="fa-brands fa-tiktok"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
             </li>
@@ -143,4 +159,5 @@
     <!--Font Awesome link-->
     <script src="https://kit.fontawesome.com/0eec5960d7.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

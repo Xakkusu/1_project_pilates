@@ -88,10 +88,6 @@ Get Connected Page:
 
 <img src="docs/wireframe/get-connected-desktop.png" width="90%" alt="Desktop Get Connected Wireframe">
 
-Thank You Page:
-
-<img src="docs/wireframe/thank-you-desktop.png" width="90%" alt="Desktop Thank You Wireframe">
-
  </details>
 
  <details>
@@ -112,10 +108,6 @@ About Us Page:
 Get Connected Page:
 
 <img src="docs/wireframe/get-connected.png" width="50%" alt="Mobile Get Connected Wireframe">
-
-Thank You Page:
-
-<img src="docs/wireframe/thank-you.png" width="50%" alt="Mobile Thank You Wireframe">
 
  </details>
 
@@ -168,10 +160,6 @@ Get Connected Page:
 
 <img src="docs/final-look/final-look-get-connected-desktop.html.png" width="90%" alt="Desktop Get Connected Page">
 
-Thank You Page:
-
-<img src="docs/final-look/final-look-thank-you-desktop.html.png" width="90%" alt="Desktop Thank You Page">
-
  </details>
 
  <details>
@@ -192,10 +180,6 @@ About Us Page:
 Get Connected Page:
 
 <img src="docs/final-look/final-look-get-connected-mobile.html.png" width="50%" alt="Mobile Get Connected Page">
-
-Thank You Page:
-
-<img src="docs/final-look/final-look-thank-you-mobile.html.png" width="50%" alt="Mobile Thank You Page">
 
  </details>
 
@@ -313,9 +297,7 @@ All pages have the following in common:
 <img src="docs/features/get-connected-button-feature.html.png" alt="sign up button with different coloring" width="40%">
 
 - The section is responsive to screen size and will adapt accordingly.
-<img src="docs/features/thank-you-feature.html.png" alt="thank you message" width="90%">
-
-- After selecting the sign-up button the user will be transferred to a thank you page to indicate that the sign-up process was successfull.
+- After selecting the sign-up button the user will be transferred to the code institute's official formdump page to indicate that the sign-up process was successfull. The entered data is shown on this page as well.
 
 
 ## TESTING

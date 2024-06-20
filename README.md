@@ -31,7 +31,7 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
     - [Links Testing](#links-testing)
     - [Browser Testing](#browser-testing)
     - [Device Testing](#device-testing)
-    - [Testing User Stories](#testing-user-stories)
+    - [User Stories Testing](#user-stories-testing)
     - [Fixed Bugs](#fixed-bugs)
 - [TECHNOLOGIES USED](#technologies-used)
     - [Languages](#languages)
@@ -313,55 +313,55 @@ All pages have the following in common:
 ##### Index Page
 Desktop
 
-<img src="docs/lighthouse/lighthouse-index-desktop.png" alt="Lighthouse rating" width="50%">
+<img src="docs/lighthouse/lighthouse-index-desktop.png" alt="Lighthouse rating" width="60%">
 
 Mobile
 
-<img src="docs/lighthouse/lighthouse-index-mobile.png" alt="Lighthouse rating" width="50%">
+<img src="docs/lighthouse/lighthouse-index-mobile.png" alt="Lighthouse rating" width="60%">
 
 ##### Courses Page
 Desktop
 
-<img src="docs/lighthouse/lighthouse-courses-desktop.png" alt="Lighthouse rating" width="50%">
+<img src="docs/lighthouse/lighthouse-courses-desktop.png" alt="Lighthouse rating" width="60%">
 
 Mobile
 
-<img src="docs/lighthouse/lighthouse-courses-mobile.png" alt="Lighthouse rating" width="50%">
+<img src="docs/lighthouse/lighthouse-courses-mobile.png" alt="Lighthouse rating" width="60%">
 
 ##### About Us Page
 Desktop
 
-<img src="docs/lighthouse/lighthouse-about-us-desktop.png" alt="Lighthouse rating" width="50%">
+<img src="docs/lighthouse/lighthouse-about-us-desktop.png" alt="Lighthouse rating" width="60%">
 
 Mobile
 
-<img src="docs/lighthouse/lighthouse-about-us-mobile.png" alt="Lighthouse rating" width="50%">
+<img src="docs/lighthouse/lighthouse-about-us-mobile.png" alt="Lighthouse rating" width="60%">
 
 ##### Get Connected Page
 Desktop
 
-<img src="docs/lighthouse/lighthouse-get-connected-desktop.png" alt="Lighthouse rating" width="50%">
+<img src="docs/lighthouse/lighthouse-get-connected-desktop.png" alt="Lighthouse rating" width="60%">
 
 Mobile
 
-<img src="docs/lighthouse/lighthouse-get-connected-mobile.png" alt="Lighthouse rating" width="50%">
+<img src="docs/lighthouse/lighthouse-get-connected-mobile.png" alt="Lighthouse rating" width="60%">
 
 #### Wave Testing
 ##### Index Page
 
-<img src="docs/wave/wave-index.png" alt="Lighthouse rating" width="30%">
+<img src="docs/wave/wave-index.png" alt="Lighthouse rating" width="40%">
 
 ##### Courses Page
 
-<img src="docs/wave/wave-courses.png" alt="Lighthouse rating" width="30%">
+<img src="docs/wave/wave-courses.png" alt="Lighthouse rating" width="40%">
 
 ##### About Us Page
 
-<img src="docs/wave/wave-about-us.png" alt="Lighthouse rating" width="30%">
+<img src="docs/wave/wave-about-us.png" alt="Lighthouse rating" width="40%">
 
 ##### Get Connected Page
 
-<img src="docs/wave/wave-get-connected.png" alt="Lighthouse rating" width="30%">
+<img src="docs/wave/wave-get-connected.png" alt="Lighthouse rating" width="40%">
 
 
 ### W3C Validators
@@ -383,19 +383,36 @@ No errors were returned for the CSS stylesheet from the W3C CSS Validator:
 
 
 ### Form Testing
-
+The form has been successfully tested if it would submit with missing or wrong data input.
+Required data: first name, last name, e-mail address and ability level.
+All other fields are voluntary, yet when entering a phone number only at least 5 numbers are allowed.
 
 ### Links Testing
-
+- All internal links are working and redirecting the user to the sections/pages they are meant to redirect them to. In case of the links to the course prices from the index page those are opened in a seperate tab.
+- All external links are working and redirecting, through a seperate tab, the user to the external website they are meant to be redirected to.
 
 ### Browser Testing
+The website was successsfully tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Safari(????)
+- Microsoft Edge
 
 ### Device Testing
 
+- The following websites, besides google dev tools, were used to check responsiveness:
+    - [Am I Responsive - Index Page](https://ui.dev/amiresponsive?url=https://xakkusu.github.io/1_project_pilates/index.html)
+    - [Am I Responsive - Courses Page](https://ui.dev/amiresponsive?url=https://xakkusu.github.io/1_project_pilates/course.html)
+    - [Am I Responsive - About Us Page](https://ui.dev/amiresponsive?url=https://xakkusu.github.io/1_project_pilates/about-us.html)
+    - [Am I Responsive - Get Connected Page](https://ui.dev/amiresponsive?url=https://xakkusu.github.io/1_project_pilates/get-connected.html)
+    - [Responsinator - Index Page](http://www.responsinator.com/?url=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Findex.html)
+    - [Responsinator - Courses Page](http://www.responsinator.com/?url=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Fcourse.html)
+    - [Responsinator - About Us Page](http://www.responsinator.com/?url=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Fabout-us.html)
+    - [Responsinator - Get Connected Page](http://www.responsinator.com/?url=https%3A%2F%2Fxakkusu.github.io%2F1_project_pilates%2Fget-connected.html)
 
-### Testing User Stories
-amiresponsive 
-responsinator
+
+### User Stories Testing
+
 
 
 ### Fixed Bugs

@@ -120,7 +120,7 @@ Get Connected Page:
 
 ## FINAL DESIGN
 ### Imagery
-All images on the webpage were taken from pexels.com. I have credited these in the [credits](#credits) section. All images on this website are free stock photos which are royalty free. The images were selected as they showed pilates, a pilates studio and people in an aesthetically pleasing way. The studio images were especially chosen in line with the color theme used for this website using brownish earthly colors. Hence these colors correlate as good as possible with a relaxed but yet strong overall theme of the website and pilates itself.
+All images on the webpage were taken from pexels.com and unsplash.com. I have credited these in the [credits](#credits) section. All images on this website are free stock photos which are royalty free. The images were selected as they showed pilates, a pilates studio and people in an aesthetically pleasing way. The studio images were especially chosen in line with the color theme used for this website using brownish earthly colors. Hence these colors correlate as good as possible with a relaxed but yet strong overall theme of the website and pilates itself.
 
 ### Color Scheme
 ![Pipalates Color Palette](docs/readme-images/colorscheme.png)
@@ -496,6 +496,7 @@ The website was successsfully tested on the following browsers:
 - [FontAwesome](https://fontawesome.com/) - Used for footer's and navbar's icon.
 - [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- Used for troubleshooting, debugging, inspecting page's elements, testing responsiveness and styling elements.
 - [pexels](https://www.pexels.com/) - Used for free images.
+- [unsplash](https://unsplash.com/de) - Used for free images.
 - [Favicon.cc](https://www.favicon.cc/) - Used for website's favicon.
 - [Coolors](https://coolors.co/) - Used to create color palette.
 - [Google Chrome's Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used to test performance and accessibility.
@@ -538,7 +539,25 @@ Fork the repository:
 
 ## CREDITS
 ### Media
-TBA
+All images on this website were taken from unplash.com and pexels.com, thanks to the talented photographers:
+- [Hero Image & Studio image](https://www.pexels.com/de-de/foto/sport-innere-interior-fitness-18499502/) - Lê Đức
+- [Studio image](https://www.pexels.com/de-de/foto/sport-innere-interior-fitness-18499500/) - Lê Đức
+- [Studio image](https://www.pexels.com/de-de/foto/sport-fitness-modern-studio-18499504/) - Lê Đức
+- [Studio image](https://www.pexels.com/de-de/foto/frauen-sport-fitness-sportbekleidung-18499503/) - Lê Đức
+- [Studio image](https://www.pexels.com/de-de/foto/frau-sport-fitness-athlet-18499514/) - Lê Đức
+- [Studio image](https://www.pexels.com/de-de/foto/holzern-innere-interior-werkzeuge-18075025/) - Lê Đức
+- [Trainer Image](https://www.pexels.com/photo/young-asian-woman-warming-up-in-gym-4376663/) - Andrea Piacquadio
+- [Trainer Image](https://www.pexels.com/photo/young-sportswoman-doing-stretch-exercise-with-elastic-band-in-modern-gym-4376713/) - Andrea Piacquadio
+- [Trainer Image](https://www.pexels.com/photo/cheerful-woman-with-laptop-wearing-sporty-clothes-4376756/) - Andrea Piacquadio
+- [Trainer Image](https://www.pexels.com/photo/cheerful-diverse-sportswomen-standing-near-brick-wall-4376742/) - Andrea Piacquadio
+- [Courses Image](https://www.pexels.com/de-de/foto/baume-fluss-ubung-yoga-5038894/) - olia danilevich
+- [Courses Image](https://www.pexels.com/de-de/foto/frauen-starke-dehnen-fitnessstudio-9649708/) - Nicholas Fu
+- [Courses Image](https://unsplash.com/de/fotos/frau-macht-yoga-neben-wandmalerei-30-s47k-U-Q) - i yunmai
+- [Courses Image](https://unsplash.com/de/fotos/eine-reihe-von-trainingsgeraten-in-einem-fitnessstudio-JmjDBhXSjyI) - freya yanggg yang
+- [Feedback Image](https://www.pexels.com/de-de/foto/menschen-frauen-gruppe-friedvoll-6246658/) - KoolShooters
+- [Feedback Image](https://www.pexels.com/de-de/foto/gesund-frau-brucke-kurve-5012071/) - Anna Shvets
+- [Feedback Image](https://www.pexels.com/de-de/foto/frau-fitness-ubung-ausbildung-5473897/) - Maria Charizani
+- [Feedback Image](https://www.pexels.com/de-de/foto/fitnesstrainerin-hilft-frau-beim-pilates-9288101/) - Nicholas Fu
 
 ### Content Inspiration
 - [pilatesboutiquevienna](https://pilatesboutiquevienna.at/)

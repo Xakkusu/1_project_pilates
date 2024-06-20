@@ -395,10 +395,11 @@ All other fields are voluntary, yet when entering a phone number only at least 5
 The website was successsfully tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
-- Safari(????)
+- Safari
 - Microsoft Edge
 
 ### Device Testing
+- This website was viewed and tested on various devices such as smartphones (Iphone X, Huawei P40 Pro+), laptops and desktops to guarantee that it is responsive for several screen sizes. Full successful testing was performed on all of the devices.
 
 - The following websites, besides google dev tools, were used to check responsiveness:
     - [Am I Responsive - Index Page](https://ui.dev/amiresponsive?url=https://xakkusu.github.io/1_project_pilates/index.html)
@@ -412,7 +413,7 @@ The website was successsfully tested on the following browsers:
 
 
 ### User Stories Testing
-
+TBA
 
 
 ### Fixed Bugs

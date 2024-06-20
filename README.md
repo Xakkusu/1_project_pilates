@@ -1,5 +1,5 @@
 # Pipalates
-Pipialtes is a static website that offers a pilates studio an online platform. The Pipalates studio itself offers pilates courses which are meant to improve the customers wellbeing. Through this website the user is informed about those services, about the studio and pilates over all. This website is hence meant to have a userbase made up of already existing customers as well as people that are interested in pilates and reformer class in Vienna, Austria.
+Pipalates is a static website that offers a pilates studio an online platform. The Pipalates studio itself offers pilates courses which are meant to improve the customers wellbeing. Through this website the user is informed about those services, about the studio and pilates over all. This website is hence meant to have a userbase made up of already existing customers as well as people that are interested in pilates and reformer classes in Vienna, Austria.
 
 Pipalates' website includes basic pilates information, information about what courses exist and at what time those take place. Moreover, the website gives the user information about previous customer experience via their feedback section. The location as well as more studio and team information is given to the user. If the user wants to stay up-to-date with information from the studio he or she can subscribe to a newsletter.
 
@@ -47,7 +47,7 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 - to provide the user with a clear short overview of what pilates is and its benefits
 - to provide the user with the location information of the pipalates studio
 - to give feedback to the user of the pipalates studio's services
-- to provide the user with information about teacher of the studio as well as equipment and look of the studio
+- to provide the user with information about trainers of the studio as well as equipment and look of the studio
 - to offer the user the chance of staying in contact with the studio, to receive information about discounts, new events etc. all according to the user's preferences
 
 ## USER EXPERIENCE (UX)
@@ -64,7 +64,7 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 - I want to know how I can contact the studio
 
 #### Returning User Goals
-- I want to know updated information about courses (especially as I progress myself with the levels)
+- I want to know updated information about courses (especially as I progress with the levels)
 - I want to know how to contact the studio
 - I want to stay up-tp-date with new classes and trainers
 
@@ -138,14 +138,14 @@ For the final H1 Heading [Raleway](https://fonts.google.com/specimen/Raleway) wa
 ### Visual Effects
 Images and more information for these effects are given in the [Features](#feautures) part.
 #### Shadows
-The navbar/header-element has on the movie device as well as on all other screen sizes a box-shadow as it is fixed at the top of the screen while scrolling. Through this it sets itself apart from the other content, hinders blending with said content and serves as a visual-anchor-point for users.
+The navbar/header-element has a box-shadow on the mobile device as well as on all other screen sizes as it is fixed at the top of the screen while scrolling. Through this it sets itself apart from the other content, hinders blending with said content and serves as a visual-anchor-point for users.
 The Get Connected Form, the content of the schedule-table, images of trainers and feedback elements all have shadows as well to lift themselves up from the other content.
 #### Navbar Hover Effect
 On larger screens when choosing a menu-section a hover-effect will appear on the topic on which the cursor is "on top off". The font-color will turn white while the background will appear in a darker brown color to make it stand out.
 #### Hover over images
-On large screens the feedback text, instead of being under the images of the feedback section it will be shown on top of images while hovering over them. The font-color will turn white and the background color brown-reddish to make it stand out.
+On large screens for the feedback text, instead of being under the images of the image, the text will be shown on top of it while hovering over them. The font-color will turn white and the background color brown-reddish to make it stand out.
 #### Button
-On the Sign-Form of the get connected page when hovering over the "sign up" button the buttons font-color and background color will switch. Thus the font-color will be white and the background color a dark brown. The cursor itself will be shown as a cursor when hovering the element. This is done to on the one hand make it stand out and on the other signal to the user that it can be clicked.
+On the Sign-Up-Form of the get connected page when hovering over the "sign up" button the buttons font-color and background color will switch. Thus the font-color will be white and the background color a dark brown. The cursor itself will be shown as a cursor when hovering the element. This is done to on the one hand make it stand out and on the other signal to the user that it can be clicked.
 
 ### Final Look
  <details >
@@ -212,7 +212,7 @@ All pages have the following in common:
 
 <img src="docs/features/navbar-mobile-feature.html.png" alt="navbar on mobile device" width="40%">  <img src="docs/features/navbar-mobile-selected-feature.html.png" alt="navbar selected on mobile device" width="40%">
 
-- on smaller screens the menu items are replaced by a burger-menu-icon. When selected the menu items are shown via a drop down option and can then be selected
+- On smaller screens the menu items are replaced by a burger-menu-icon. When selected the menu items are shown via a drop down option and can then be selected
 
 #### Footer
 <img src="docs/features/footer-feature.html.png" alt="footer with social media icons">
@@ -225,7 +225,7 @@ All pages have the following in common:
 #### Hero Image
 <img src="docs/features/hero-image-feature.html.png" alt="hero image of a pilates studio" width="90%">
 
-- The visually pleasing image is of a pilates studio with reformers lined up behind one another.
+- The visually pleasing image of a pilates studio with reformers lined up behind one another.
 - The semi-transparent cover text informs the user about the main topic of the website while being in line with the overall color scheme of the website.
 - The image is responsive and the cover text switches to the left side on smaller screens to not be on top of the reformer. This way the main message of the website is still transferred to the user
 
@@ -234,9 +234,9 @@ All pages have the following in common:
 
 - This section is subdivided into 4 parts for each course: a short description for the user of the course as well as a fitting picture of something similar to the course so the user gets a visual representation of the course as well
 - On larger screens when hovering over a course-image-box the box will have a dark border, a darker brownish background color and the font-color will be white.
-- Each course-image-box can be selected and will open a new tab to the course page to the according course that has been clicked.
+- The course-image-box's can be selected and will open a new tab to the according prices section on the courses page.
 - On smaller screens the images and text are ordered under one another and are hence responsive to different devices.
-- This section shows the user the main service the studio offers, the courses. Through visual effects and the linked parts the user could directly transfer to the section about the courses with further information about the courses.
+- This section shows the user the main service the studio offers, the courses. Through visual effects and the linked parts the user could directly transfer to the section about the courses with further information about them.
 
 #### Why Pilates Section
 <img src="docs/features/why-pilates-feature.html.png" alt="a brief text section of what pilates is" width="90%">
@@ -284,7 +284,7 @@ All pages have the following in common:
 
 <img src="docs/features/team-feature.html.png" alt="four images of trainers with short description below them" width="90%">
 
-- This section presents the trainers to the user as well as who is in charge of the studio. Through this and the information given about the trainers a few informational needs of the users are already answered.
+- This section presents the trainers to the user as well as who is in charge of the studio. Through this and the information given about the trainers a few informational needs of the users are already met.
 - The section is responsive to screen size and will adapt accordingly.
 
 #### Our Studio Section
@@ -413,21 +413,69 @@ The website was successsfully tested on the following browsers:
 
 
 ### User Stories Testing
-TBA
+#### First Time User Goals
+- I want the main purpose of the website to be easy to understand
+    
+    The website's main content is clearly presented on the index page (and other pages) and its structure is similar to the top 3 pilates studio website's in Vienna so the user would be familiar with the layout.
+- I want the website to be easy to navigate
+    
+    Through the navbar which by being fixed is present whenever the user can navigate to all pages whenever they want to.
+- I want to know about services/classes being offered
+
+    On the index page and the courses page clear and compact information about courses are presented.
+- I want to know the cost of courses
+
+    The courses page offers price details for all available courses.
+- I want to know when the courses will be held
+
+    The courses page offers a timetable with the courses. The same courses are colored the same way so it will be easier for the user to find fitting times and course.
+- I want to know where the studio is located
+
+    On the index page the address as well as an interactive google maps tool, to show where to studio is located, is provided.
+- I want to know about trainers
+
+    The about us page offers names, images and further information about the trainers the studio employs.
+- I want to know about the studios equipment
+
+    The about us page provides several images of the Studio in the Our Studio section for the user to be able to make themself a better picture about the studio.
+- I want to know how I can contact the studio
+
+    The index page offers an e-mail address as well as a phone number. The footer with all social media link is present on all pages.
+
+#### Returning User Goals
+- I want to know updated information about courses (especially as I progress with the levels)
+
+    The courses page is updated regurlarly. However, when signing up for the newsletter the user will be directly informed about new courses.
+- I want to know how to contact the studio
+
+    The index page offers an e-mail address as well as a phone number. The footer with all social media link is present on all pages.
+- I want to stay up-tp-date with new classes and trainers
+
+    The user can sign-up for the newsletter and will hence be always directly informed, about topics that interests them, via mail about all updates.
+
+#### Frequent User Goals
+- I want to stay up-tp-date with new classes and trainers + I want to stay up-to-date with new studio equipment
+
+    The user can sign-up for the newsletter and will hence be always directly informed, about topics that interests them, via mail about all updates.
+
+- I want to be able to to show my feedback on the website via contact information
+
+    The index page offers an e-mail address as well as a phone number. The footer with all social media link is present on all pages. When contacting the studio via one of these channels the feedback can be displayed on the feedback section on the courses page.
 
 
 ### Fixed Bugs
 1. Header and navbar were styled incorrectly so that the header fully covered navbar/menu when its position is fixed:
     - added top margin in main element which is the same as the height of header
     - added high z-index (99) so that the menu will stay on top of the layout when scrolling
+
     Now menu didn't fit screen and positioning was off:
     - added absolute position in navbar so that its position stay relative to the header and is taken out of the normal flow
     - menu items were placed directly under header with top:100% and placed left:0
 2.  Table wasn't wholly visible on smaller screens
-    - the table for weekdays was horizontally too large for mobile devices but adding the days below one another would have taken too much space and could be confusing for user to compare days and time
+    - the table for weekdays was horizontally too large for mobile devices but adding the days below one another would have taken too much space and could be confusing for user to compare days and times
     - added overvlow-x:auto to table element to add a horizontal scroll bar for table content which was too big for its block level element; user can however always rotate their phone which would show it wholy either way
 3. From 992px and upwards the size of the index-page was dislocated from the size of the screen, which after some testing was found out to have come from the Why Pilates?-section on that page
-    - width of why-pilates and of best-courses section were to wide, especially the may width with no min width attribute in the why pilates section
+    - width of why-pilates and of best-courses section were to wide
     - added min width attribute which is smaller than starting screen size of this media query and giving it a new max width attribute, same with the best-course section
     - content were well fitted to screen size again
 4. On the index page all course boxes were meant to link to the according course box on the courses page. However when opening the link on mobile devices the link would open up with a delayed jump to the box on courses page, yet only showing part of the element not the whole element:
@@ -474,10 +522,11 @@ The steps to deploy this project using GitHub pages were the following:
 The live link can be found here - [Pipalates](https://xakkusu.github.io/1_project_pilates/index.html)
 
 How to run the project locally:
+
 Fork the repository:
-    - Log in (or sign up) to Github.
-    - Go to the repository for: Xakkusu/1_project_pilates.
-    - Click the Fork button in the top right corner.
+- Log in (or sign up) to Github.
+- Go to the repository for: Xakkusu/1_project_pilates.
+- Click the Fork button in the top right corner.
 
 #### Clone repository:
 1. Log in (or sign up) to GitHub.
@@ -489,6 +538,7 @@ Fork the repository:
 
 ## CREDITS
 ### Media
+TBA
 
 ### Content Inspiration
 - [pilatesboutiquevienna](https://pilatesboutiquevienna.at/)
@@ -504,7 +554,7 @@ Fork the repository:
 
 - [W3Schools](https://www.w3schools.com/)
 
-- [ChatGPT](https://openai.com/chatgpt/) for comming up with reviews from customers
+- [ChatGPT](https://openai.com/chatgpt/) for comming up with review text from customers as I was lacking the fantasy for it
 
 - Readm.md file was created based on the structure of [AliOkeeffe](https://github.com/AliOKeeffe/mindyoga?tab=readme-ov-file) and [emilycheatham](https://github.com/emilycheatham/p1_yoga_for_you/blob/main/README.md).
 

@@ -40,6 +40,7 @@ The live link can be found here - [Pipalates](https://xakkusu.github.io/1_projec
 - [CREDITS](#credits)
     - [Media](#media)
     - [Resources](#resources)
+- [ACKNOWLEDGEMENTS](#acknowledgements)
 
 ## SITE OWNER GOALS
 - to provide the user with information that there is a pipalates studio in Vienna and motivate them to engage with it
@@ -577,4 +578,8 @@ All images on this website were taken from unplash.com and pexels.com, thanks to
 
 - Readm.md file was created based on the structure of [AliOkeeffe](https://github.com/AliOKeeffe/mindyoga?tab=readme-ov-file) and [emilycheatham](https://github.com/emilycheatham/p1_yoga_for_you/blob/main/README.md).
 
-- Code Institute's Slack community already answered questions that I had, when I got stuck.
+
+## ACKNOWLEDGEMENTS
+- My mentor Antonio for their guidance and support.
+- Code Institute for informative course material.
+- The Code Institute's Slack community for support and reviewing my project.

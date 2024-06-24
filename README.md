@@ -388,11 +388,11 @@ Required data: first name, last name, e-mail address and ability level.
 All other fields are voluntary, yet when entering a phone number only at least 5 numbers are allowed.
 
 ### Links Testing
-- All internal links are working and redirecting the user to the sections/pages they are meant to redirect them to. In case of the links to the course prices from the index page those are opened in a seperate tab.
-- All external links are working and redirecting, through a seperate tab, the user to the external website they are meant to be redirected to.
+- All internal links are working and redirecting the user to the sections/pages they are meant to redirect them to. In case of the links to the course prices from the index page those are opened in a separate tab.
+- All external links are working and redirecting, through a separate tab, the user to the external website they are meant to be redirected to.
 
 ### Browser Testing
-The website was successsfully tested on the following browsers:
+The website was successfully tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
 - Safari
@@ -428,10 +428,10 @@ The website was successsfully tested on the following browsers:
     The courses page offers price details for all available courses.
 - I want to know when the courses will be held
 
-    The courses page offers a timetable with the courses. The same courses are colored the same way so it will be easier for the user to find fitting times and course.
+    The courses page offers a timetable with the courses. The same courses are colored the same way so it will be easier for the user to find fitting times and courses.
 - I want to know where the studio is located
 
-    On the index page the address as well as an interactive google maps tool, to show where to studio is located, is provided.
+    On the index page the address as well as an interactive google maps tool, to show where the studio is located, is provided.
 - I want to know about trainers
 
     The about us page offers names, images and further information about the trainers the studio employs.
@@ -440,27 +440,27 @@ The website was successsfully tested on the following browsers:
     The about us page provides several images of the Studio in the Our Studio section for the user to be able to make themself a better picture about the studio.
 - I want to know how I can contact the studio
 
-    The index page offers an e-mail address as well as a phone number. The footer with all social media link is present on all pages.
+    The index page offers an e-mail address as well as a phone number. The footer with all social media links is present on all pages.
 
 #### Returning User Goals
 - I want to know updated information about courses (especially as I progress with the levels)
 
-    The courses page is updated regurlarly. However, when signing up for the newsletter the user will be directly informed about new courses.
+    The courses page is updated regularly. However, when signing up for the newsletter the user will be directly informed about new courses.
 - I want to know how to contact the studio
 
-    The index page offers an e-mail address as well as a phone number. The footer with all social media link is present on all pages.
+    The index page offers an e-mail address as well as a phone number. The footer with all social media links is present on all pages.
 - I want to stay up-tp-date with new classes and trainers
 
-    The user can sign-up for the newsletter and will hence be always directly informed, about topics that interests them, via mail about all updates.
+    The user can sign-up for the newsletter and will hence be always directly informed, about topics that interest them, via mail about all updates.
 
 #### Frequent User Goals
 - I want to stay up-tp-date with new classes and trainers + I want to stay up-to-date with new studio equipment
 
-    The user can sign-up for the newsletter and will hence be always directly informed, about topics that interests them, via mail about all updates.
+    The user can sign-up for the newsletter and will hence be always directly informed, about topics that interest them, via mail about all updates.
 
 - I want to be able to to show my feedback on the website via contact information
 
-    The index page offers an e-mail address as well as a phone number. The footer with all social media link is present on all pages. When contacting the studio via one of these channels the feedback can be displayed on the feedback section on the courses page.
+    The index page offers an e-mail address as well as a phone number. The footer with all social media links is present on all pages. When contacting the studio via one of these channels the feedback can be displayed on the feedback section on the courses page.
 
 
 ### Fixed Bugs
